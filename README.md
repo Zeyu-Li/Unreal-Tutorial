@@ -227,7 +227,13 @@ Unlike other engines, Unreal has many convenient features and templates (Unreal 
 These features are very feature complete and the most common modification is to remove the gun and bullets in the first person feature. 
 
 1. Open the **FirstPersonCharacter** blueprint located in the Content -> FirstPersonBP -> Blueprints
-2. 
+2. Locate the Spawn projectile group and on the top left side is the InputAction Fire and the InputTouch nodes
+3. Remove the two nodes
+4. Now go to the viewport and select by clicking on the two guns and arms (all at once or individually, it doesn't make a difference)
+5. In the Details panel, go to Render and uncheck **Visable**
+6. (Optional) If you want to remove the crosshairs: 
+   1. Open the FirstPersonHUB blueprint
+   2. Delete the Event Receive Hand HUB node
 
 
 
@@ -239,7 +245,7 @@ Of course, just because you selected one of the features does not mean you are l
 
 ## 14. Resources
 
-
+Official Documentation: https://docs.unrealengine.com/en-US/index.html
 
 
 
