@@ -14,18 +14,20 @@ Unreal engine 4 is a powerful tool that has plenty of functionality built in. If
 2. [Overview](#overview)
 3. [Cloning Guide](#guide)
 4. [Models & 3D](#models)
-5. [Movement & Camera](#move)
-6. Lighting
-7. Animation
-8. Particles
-9. Coding
-10. Events
-11. Music and Sound
-12. Misc
-13. Demo
-14. [Resources](#help)
-15. [License](#license)
-16. [Collaboration](#collab)
+5. [Materials](#mat)
+6. [Movement & Camera](#move)
+7. [Lighting](#light)
+8. Animation
+9. Particles
+   * FX (TODO: Bloom)
+10. Coding
+11. Events
+12. Music and Sound
+13. Misc
+14. Demo
+15. [Resources](#help)
+16. [License](#license)
+17. [Collaboration](#collab)
 
 
 
@@ -55,7 +57,7 @@ The Unreal engine is a product of Epic Games. Like Unity, it is free to use if y
 
    4. **Library** is where you will see projects (if you have any) and the version of the Unreal Engine you will be installing. For this tutorial, I will be using 4.25.0. To add an engine, click the plus icon in the **ENGINE VERSIONS** and the newest stable version should be displayed. 
 
-      ![setup2](images\setup2.jpg)
+      ![setup2](images/setup2.jpg)
 
    5. **Twinmotion** is a CAD plugin that is irrelevant to this tutorial
 
@@ -205,13 +207,47 @@ To import 3D models/bodies, you will have to import it as a fbx file (make sure 
 
 Unreal, unlike other game engines has a contained terrain generator. To enable this terrain generator,  hit shift-2. If you are working above Unreal version 4.25.0, you will see a new tab appear, however, I believe the legacy window to be better because you can quickly switch to landscape, foliage, paint, place, and more with the old menu. To enable this, go to Edit -> Editor Preferences, search legacy and the check the first result (under User Interface). After, you may need to restart, but you will see a 5 tabbed window on the left side now
 
+Anyhow, to start creating a landscape:
 
+1. shift-2 to get to landscape mode
+
+2. You will see a grid that displays the area of landscape
+
+3. (Optional) create a normal map and add it as a material to create a new landscape and you will be done
+
+4. ![terrainBuilder](images/terrainBuilder.jpg)
+
+   Under the Material picker is a bunch of options (above) for you to change to your needs. You can change the displacement, rotation, or scale, but it is better to change the section size and number of components. Note you can change it to a none square grid
+
+5. After you are satisfied with the landscape dimensions, hit **create**
+
+6. Now you will see that a landscape is made and that you are now in paint mode
+
+7. ![sculpt](images/sculpt.jpg)
+
+   Now you can modify your landscape with sculpting tools. This means you can do additive and subtractive changes to the mesh. In addition, you can change the "brush" size and shape 
+
+8. **TIP** Block out the shape of the terrain first, then detail with noise, erosion, etc.
+
+9. If you need to add or delete sections to the grid, go back to the Manage part of landscape and change the **Selection** to Add or Delete
+
+10. Play around with the tools and don't be afraid to experiement
+
+
+
+\* You can create a landscape in another program and import it into Unreal
+
+
+
+<a name="mat"></a>
+
+## 5. Materials
 
 
 
 <a name="move"></a>
 
-## 5. Movement & Camera
+## 6. Movement & Camera
 
 Unlike other engines, Unreal has many convenient features and templates (Unreal calls these templates "Features"). If you require a first person, third person, 2D sides roller, vehicle, AR/Virtual Reality, flying, or puzzle, Unreal has got you covered. These templates are often times a very good jumping off point. I will go through some of the popular templates below.
 
@@ -241,9 +277,17 @@ Of course, just because you selected one of the features does not mean you are l
 
 
 
+<a name="light"></a>
+
+## 7. Lighting
+
+Lighting is a massive undertaking as it sets the mood of the game and can modify how things look. For my project, I will be making it sunset, 
+
+
+
 <a name="help"></a>
 
-## 14. Resources
+## 1. Resources
 
 Official Documentation: https://docs.unrealengine.com/en-US/index.html
 
@@ -251,7 +295,7 @@ Official Documentation: https://docs.unrealengine.com/en-US/index.html
 
 <a name="license"></a>
 
-## 15. License
+## 1. License
 
 This tutorial and my Unreal template game is under MIT License
 
@@ -259,7 +303,7 @@ This tutorial and my Unreal template game is under MIT License
 
 <a name="collab"></a>
 
-## 16. Collaboration
+## 1. Collaboration
 
 Collaborating is made easy in Unreal with Unreal's own version control system
 
