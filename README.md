@@ -17,8 +17,8 @@ Unreal engine 4 is a powerful tool that has plenty of functionality built in. If
 5. [Materials](#mat)
 6. [Movement & Camera](#move)
 7. [Lighting](#light)
-8. Animation
-9. Particles
+8. [Animation](#anim)
+9. [Particles](#)
    * FX (TODO: Bloom)
 10. Coding
 11. Events
@@ -201,6 +201,20 @@ First off note that you do not need to make all 3D asset body. There are many as
 
 To import 3D models/bodies, you will have to import it as a fbx file (make sure you export only the things you have selected (the model) and not everything including the camera, lights, etc. or you can choose to not import the camera or lights in Unreal) 
 
+Now to import into Unreal
+
+1. Click on the **Import** button in the Content Browser
+
+2. Locate the fbx model
+
+3. ![imports](images/imports.jpg)
+
+   This menu will appear and generally, the defaults are good enough
+
+4. Click Import
+
+5. Now you can drag the model into the scene and you will see it snapping to the face of the bottom mesh
+
 
 
 **Landscape**
@@ -231,7 +245,21 @@ Anyhow, to start creating a landscape:
 
 9. If you need to add or delete sections to the grid, go back to the Manage part of landscape and change the **Selection** to Add or Delete
 
-10. Play around with the tools and don't be afraid to experiement
+10. Play around with the tools and don't be afraid to experiment
+
+11. (Optional) painting in the landscape (see [materials](#mat))
+
+    1. Follow the materials tutorial to get the right material 
+
+    2. ![landscapeMaterial](images/landscapeMaterial.jpg)
+
+       Click on the landscape mesh and in the Landscape section, in the Landscape Material and find the terrain material (see above)
+
+    3. Go to the landscape mode, go to paint mode and create layer info (**+** plus icon) and select Weight-Blended Layer (normal)
+
+    4. Save it to where you want it and repeat for all the material layers
+
+    5. Start painting!
 
 
 
@@ -239,9 +267,56 @@ Anyhow, to start creating a landscape:
 
 
 
+**Foliage**
+
+One thing that will add that extra layer of depth is foliage, ie. trees, grass, bushes etc. Well Unreal makes this easy with the foliage tools. 
+
+
+
+
+
 <a name="mat"></a>
 
 ## 5. Materials
+
+Materials in Unreal are node based, therefore, if you have used Blender or Substance Designer, the materials should be nearly identical. If you want to make some basic materials, just follow a Blender material tutorial and you can apply it directly to Unreal
+
+For this tutorial, I will do something a bit different and create a landscape material to be applied with the landscape paint tool.
+
+1. Right click on the content browser and select material
+
+2. Rename it and double click to edit it
+
+3. You will see the node edit now and the main node that looks exactly like Blender's Principled BSDF node
+
+4. Right click to get the search menu and look for **Layer Blend**. This will make it such that Unreal can switch materials in paint mode 
+
+5. ![nodeSetting](images/nodeSetting.jpg)
+
+   Click on the Layer Blend and in the bottom, left side, you will see options like the one above. Here you can add paint layers. Just click the Adds Element **+** icon like the on above and you can rename it. You can add as many layers as you need. 
+
+6. We can connect this to the base color as we are doing the base colors first
+
+7. Add a **texture sample** node to one of the layers and in the options, change the texture to whatever you need
+
+8. Connect the texture sample to one of the paint layers
+
+9. If you have normal or roughness maps, repeat steps 4-8 with the normal maps
+
+10. (Optional) since you need a roughness defined, add a constant node and set it to a float from 1 to 0, 1 being non-reflective and 8 being very reflective. You can also do this to with metallic
+
+11. Organize nodes into groups with Ctrl-C
+
+12. For a landscape material, add a **LandscapeCoords** node to all the texture samples so you can scale them periportally with the **Mapping Scale** options
+
+Next I will make a plain white material
+
+1. Right click on the content browser and select material
+2. Rename it and double click to edit it
+3. Add a constant3vector node and change the constant to white
+4. Connect to base color
+5. Add a 1 constant node to roughness
+6. Exit and drag and drop to mesh (you sometimes need to build the level, otherwise you might see the text preview on the mesh, perhaps a bit distorted)
 
 
 
@@ -281,7 +356,28 @@ Of course, just because you selected one of the features does not mean you are l
 
 ## 7. Lighting
 
-Lighting is a massive undertaking as it sets the mood of the game and can modify how things look. For my project, I will be making it sunset, 
+Lighting is a massive undertaking as it sets the mood of the game and can modify how things look. There are two subsets of lighting options we will talk about, global and local. First we will tackle global lighting. 
+
+One thing to note about Unreal is that global lighting is very intertwined. What I mean by this is that in the default scene, the Atmospheric Fog, Sky Sphere, and SkyLight are all controlled by the direction of the **light source**. This makes it such that it mimics the sun.
+
+For my tutorial, I will be making it sunset, 
+
+1. Change the light source to a rotation of that of a sunset. (If you are making a night scene, set it to point straight up to the sky and this [tutorial](https://www.youtube.com/watch?v=qJFaKZh1VqU))
+2. Drag in a **Post Process Volume** into the scene and in the options check the **infinite Extent**. 
+3. Now below the exposure details, you will see max and min brightness. Something you **need **to know about Unreal is that Unreal has a feature that adjusts the brightness depending on the surrounding. This is the auto exposure (**Eye Adaptation**) working. This will make it like your eye, which adjusts to the brightness of the surrounding. With this in mind, we will need to increase min brightness (I have mine set to 2) because that way, Unreal will not using Eye Adaptation as aggressively (max can be whatever)
+4. In the light source, change in intensity to your liking and you can also change the color
+5. Another thing that adds that something extra is cloud speed and opacity in the Sky Sphere
+6. One other thing that may need to be change depending on the mood is global lighting. The global lighting options can be found in the world settings window
+
+Local lighting is like any other 3D software with point, spot and directional light. There is no area light because I think there is an emissions shader node like in Blender
+
+
+
+<a name="anim"></a>
+
+## 8. Animation
+
+Animation 
 
 
 
