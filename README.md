@@ -11,23 +11,44 @@ Unreal engine 4 is a powerful tool that has plenty of functionality built in. If
 ## Index
 
 1. [Install](#setup)
+
 2. [Overview](#overview)
+
 3. [Cloning Guide](#guide)
+
 4. [Models & 3D](#models)
+
 5. [Materials](#mat)
+
 6. [Movement & Camera](#move)
+
 7. [Lighting](#light)
-8. [Animation](#anim)
-9. [Particles](#)
+
+8. [Water](#water)
+
+9. [Animation](#anim)
+
+10. [Particles](#)
+
+   * Fog
+
    * FX (TODO: Bloom)
-10. Coding
-11. Events
-12. Music and Sound
-13. Misc
-14. Demo
-15. [Resources](#help)
-16. [License](#license)
-17. [Collaboration](#collab)
+
+11. Coding
+
+12. Events
+
+13. Music and Sound
+
+14. Misc
+
+15. Demo
+
+16. [Resources](#help)
+
+17. [License](#license)
+
+18. [Collaboration](#collab)
 
 
 
@@ -373,9 +394,26 @@ Local lighting is like any other 3D software with point, spot and directional li
 
 
 
+<a name="water"></a>
+
+## 8. Water
+
+Water features are complex and expensive graphically, however Unreal has resources to help us. In this tutorial, we will be "making" an ocean with Unreal's ocean template
+
+1. Go to the Epic Launcher and go to the marketplace
+2. Search of Water Planes by Epic Games (it should be free)
+3. Click **Free** and **Add to Project**
+4. Select project and comfirm
+5. You should see the WaterPlane folder in your project
+6. There are several options in the WaterPlane folder, so take your time and look at some of them
+7. Drag the Blueprint into the scene and scale it accordingly
+8. There are also other options relating the wave height, noise scale, etc. Play around with these parameters to get something that looks good for your project
+
+
+
 <a name="anim"></a>
 
-## 8. Animation
+## 9. Animation
 
 Animation 
 
