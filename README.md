@@ -28,7 +28,7 @@ Unreal engine 4 is a powerful tool that has plenty of functionality built in. If
 
 9. [Animation](#anim)
 
-10. [Particles](#)
+10. [Particles](#particle)
 
    * Fog
 
@@ -415,7 +415,52 @@ Water features are complex and expensive graphically, however Unreal has resourc
 
 ## 9. Animation
 
-Animation 
+Animations are important for 3D games if you doing want a static picture. To create an animation;
+
+1. Drag in your model
+
+2. Change it to movable
+
+3.  ![anim](images/anim.jpg)
+
+    Click **Cinematics** -> **Add Level Sequence**
+
+4. You will see a timeline, similar to many other 3D programs
+
+5. Right click in the layer part (left of the timeline) and select **Actor to Sequence** and find your actor (object)
+
+6. ![addAnim](images/addAnim.jpg)
+
+   Once hovering on the actor you will see the **+ Track**. Click it and select **Transform**
+
+7. You can expand the transform and select the tiny **+** in the circle to keyframe it
+
+8. You can change the interpolation to linear or cubic with the Wrench icon
+
+9. After you are finished with the animation, go to the Level Sequence Object in the World Outliner (should look like a movie icon) adn select it
+
+10. You will see options in Playback like Auto Play, Loop, Playback rate, and more
+
+    
+
+\* Note, if you want to create more complex animations, use Blueprints, which I will go in detail later. Here are some resources: 
+
+* https://medium.com/@Luke_Marsden/simple-animation-in-ue4-e8c2529b3eb9
+* https://docs.unrealengine.com/en-US/Engine/Animation/Overview/index.html
+
+
+
+<a name="particle"></a>
+
+## 10. Particles
+
+Particles add that extra layer of emersion and can change a boring static scene into a dynamic, alive scene. There are many different particles that come packaged with Unreal and this section will explore some of them. I will also go into other FX or VFX in this section like fog and bloom
+
+**Fog**
+
+Fog can be added in duck scenes or to add a cloud of mystery. There are two kinds of fog with Unreal, **Sky Atmosphere** and **Atmospheric Fog**. After testing, I will be using Atmospheric Fog
+
+1. 
 
 
 
