@@ -1,6 +1,5 @@
 # Visual Studio 2015 user specific files
 .vs/
-.Unreal_Template/Saved/Backup/
 
 # Compiled Object files
 *.slo
@@ -73,3 +72,4 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+Unreal_Template/Saved/Backup/
