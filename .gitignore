@@ -1,5 +1,6 @@
 # Visual Studio 2015 user specific files
 .vs/
+.Unreal_Template/Saved/Backup/
 
 # Compiled Object files
 *.slo
