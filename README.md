@@ -30,7 +30,7 @@ Unreal engine 4 is a powerful tool that has plenty of functionality built in. If
 
 10. [Particles](#particle)
 
-   * Fog
+   * [Fog](#fog)
 
    * FX (TODO: Bloom)
 
@@ -290,9 +290,13 @@ Anyhow, to start creating a landscape:
 
 **Foliage**
 
-One thing that will add that extra layer of depth is foliage, ie. trees, grass, bushes etc. Well Unreal makes this easy with the foliage tools. 
+One thing that will add that extra layer of depth is foliage, ie. trees, grass, bushes etc. Well Unreal makes this easy with the foliage tools.  No longer will you have to place foliage or even rocks by hand, the **Foliage** tool will do all of this with variation by itself
 
-
+1. Find the models you need (if you need one to practice with use the rock in Content -> Models in the project, \* note I made this in Blender and I give permission for you to use it without attribution)
+2. Drag the model(s) into the **Drop Foliage Here** area
+3. You can change the Brush Size and Density
+4. For each model, you can change the density and the scale (including some randomness) if you select it
+5. If you need collision on the foliage like with trees or rocks, go down to the Instance Settings -> Collision Presents -> Block All
 
 
 
@@ -455,6 +459,8 @@ Animations are important for 3D games if you doing want a static picture. To cre
 ## 10. Particles
 
 Particles add that extra layer of emersion and can change a boring static scene into a dynamic, alive scene. There are many different particles that come packaged with Unreal and this section will explore some of them. I will also go into other FX or VFX in this section like fog and bloom
+
+<a name="fog"></a>
 
 **Fog**
 

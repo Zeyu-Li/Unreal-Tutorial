@@ -72,4 +72,6 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
-Unreal_Template/Saved/Backup/
+
+# backups
+*/Saved/Backup/*
