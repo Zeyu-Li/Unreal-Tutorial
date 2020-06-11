@@ -1,0 +1,894 @@
+﻿Log file open, 06/10/20 21:16:12
+LogInit: Display: Running engine for game: Unreal_Template
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.381004
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -7:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-13144385
+LogInit: Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 1909) (), CPU: Intel(R) Core(TM) i5-9300H CPU @ 2.40GHz, GPU: Intel(R) UHD Graphics 630
+LogInit: Compiled (64-bit): May  2 2020 02:12:11
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.06.11-03.16.13:721][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.06.11-03.16.13:721][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.06.11-03.16.13:721][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Saved/Config/Windows/Engine.ini]
+[2020.06.11-03.16.13:721][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.06.11-03.16.13:721][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Saved/Config/Windows/Engine.ini]
+[2020.06.11-03.16.13:721][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Saved/Config/Windows/Engine.ini]
+[2020.06.11-03.16.13:721][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.06.11-03.16.13:721][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.06.11-03.16.13:721][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.06.11-03.16.13:721][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.06.11-03.16.13:721][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.06.11-03.16.13:721][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.06.11-03.16.13:721][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.06.11-03.16.13:721][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.06.11-03.16.13:721][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.06.11-03.16.13:721][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.06.11-03.16.13:721][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.06.11-03.16.13:721][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.06.11-03.16.13:721][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.06.11-03.16.13:721][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.06.11-03.16.13:721][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Saved/Config/Windows/Engine.ini]
+[2020.06.11-03.16.13:721][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.06.11-03.16.13:721][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.06.11-03.16.13:721][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.06.11-03.16.13:721][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.06.11-03.16.13:721][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.06.11-03.16.13:721][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.06.11-03.16.13:721][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.06.11-03.16.13:721][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.06.11-03.16.13:721][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.06.11-03.16.13:721][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.06.11-03.16.13:721][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.06.11-03.16.13:721][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.06.11-03.16.13:721][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.06.11-03.16.13:721][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Saved/Config/Windows/Engine.ini]
+[2020.06.11-03.16.13:721][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Saved/Config/Windows/Engine.ini]
+[2020.06.11-03.16.13:724][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Saved/Config/Windows/Scalability.ini]
+[2020.06.11-03.16.13:724][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.06.11-03.16.13:724][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.06.11-03.16.13:724][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Saved/Config/Windows/Scalability.ini]
+[2020.06.11-03.16.13:724][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.06.11-03.16.13:724][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Saved/Config/Windows/Scalability.ini]
+[2020.06.11-03.16.13:724][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.06.11-03.16.13:724][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.06.11-03.16.13:724][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.06.11-03.16.13:724][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.06.11-03.16.13:724][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.06.11-03.16.13:724][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.06.11-03.16.13:724][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.06.11-03.16.13:724][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.06.11-03.16.13:724][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.06.11-03.16.13:724][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.06.11-03.16.13:724][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.06.11-03.16.13:724][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.06.11-03.16.13:724][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.06.11-03.16.13:724][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.06.11-03.16.13:724][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.06.11-03.16.13:724][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.06.11-03.16.13:724][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.06.11-03.16.13:724][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.06.11-03.16.13:724][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Saved/Config/Windows/Scalability.ini]
+[2020.06.11-03.16.13:724][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.06.11-03.16.13:724][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.06.11-03.16.13:724][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.06.11-03.16.13:724][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.06.11-03.16.13:724][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.06.11-03.16.13:724][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.06.11-03.16.13:724][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.06.11-03.16.13:724][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.06.11-03.16.13:724][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.06.11-03.16.13:724][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.06.11-03.16.13:724][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.06.11-03.16.13:724][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.06.11-03.16.13:724][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.06.11-03.16.13:724][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.06.11-03.16.13:724][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.06.11-03.16.13:724][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.06.11-03.16.13:724][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.06.11-03.16.13:724][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.06.11-03.16.13:724][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.06.11-03.16.13:724][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.06.11-03.16.13:724][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.06.11-03.16.13:724][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.06.11-03.16.13:725][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.06.11-03.16.13:725][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.06.11-03.16.13:725][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.06.11-03.16.13:725][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.06.11-03.16.13:725][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.06.11-03.16.13:725][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.06.11-03.16.13:725][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.06.11-03.16.13:725][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.06.11-03.16.13:725][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Saved/Config/Windows/Scalability.ini]
+[2020.06.11-03.16.13:725][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.06.11-03.16.13:725][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.06.11-03.16.13:725][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.06.11-03.16.13:725][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.06.11-03.16.13:725][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.06.11-03.16.13:725][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.06.11-03.16.13:725][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.06.11-03.16.13:725][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.06.11-03.16.13:725][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.06.11-03.16.13:725][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Saved/Config/Windows/Scalability.ini]
+[2020.06.11-03.16.13:725][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.06.11-03.16.13:725][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.06.11-03.16.13:725][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.06.11-03.16.13:725][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.06.11-03.16.13:725][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.06.11-03.16.13:725][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.06.11-03.16.13:725][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.06.11-03.16.13:725][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.06.11-03.16.13:725][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.06.11-03.16.13:725][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.06.11-03.16.13:725][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.06.11-03.16.13:725][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.06.11-03.16.13:725][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.06.11-03.16.13:725][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.06.11-03.16.13:725][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.06.11-03.16.13:725][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.06.11-03.16.13:725][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.06.11-03.16.13:725][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.06.11-03.16.13:725][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.06.11-03.16.13:725][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.06.11-03.16.13:725][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.06.11-03.16.13:725][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.06.11-03.16.13:725][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.06.11-03.16.13:725][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.06.11-03.16.13:725][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.06.11-03.16.13:725][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.06.11-03.16.13:725][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Saved/Config/Windows/Scalability.ini]
+[2020.06.11-03.16.13:725][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.06.11-03.16.13:725][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.06.11-03.16.13:725][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Saved/Config/Windows/Scalability.ini]
+[2020.06.11-03.16.13:725][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.06.11-03.16.13:725][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.06.11-03.16.13:725][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.06.11-03.16.13:725][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.06.11-03.16.13:725][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.06.11-03.16.13:725][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.06.11-03.16.13:725][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.06.11-03.16.13:725][  0]LogInit: Selected Device Profile: [Windows]
+[2020.06.11-03.16.13:725][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.06.11-03.16.13:725][  0]LogHAL: Display: Platform has ~ 8 GB [8464355328 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.06.11-03.16.13:725][  0]LogInit: Going up to parent DeviceProfile []
+[2020.06.11-03.16.13:725][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Saved/Config/Windows/Scalability.ini]
+[2020.06.11-03.16.13:725][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.06.11-03.16.13:725][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.06.11-03.16.13:725][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Saved/Config/Windows/Scalability.ini]
+[2020.06.11-03.16.13:725][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.06.11-03.16.13:725][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Saved/Config/Windows/Scalability.ini]
+[2020.06.11-03.16.13:725][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.06.11-03.16.13:725][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.06.11-03.16.13:725][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.06.11-03.16.13:725][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.06.11-03.16.13:725][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.06.11-03.16.13:725][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.06.11-03.16.13:725][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.06.11-03.16.13:726][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.06.11-03.16.13:726][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.06.11-03.16.13:726][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.06.11-03.16.13:726][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.06.11-03.16.13:726][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.06.11-03.16.13:726][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.06.11-03.16.13:726][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.06.11-03.16.13:726][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.06.11-03.16.13:726][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.06.11-03.16.13:726][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.06.11-03.16.13:726][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.06.11-03.16.13:726][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Saved/Config/Windows/Scalability.ini]
+[2020.06.11-03.16.13:726][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.06.11-03.16.13:726][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.06.11-03.16.13:726][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.06.11-03.16.13:726][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.06.11-03.16.13:726][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.06.11-03.16.13:726][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.06.11-03.16.13:726][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.06.11-03.16.13:726][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.06.11-03.16.13:726][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.06.11-03.16.13:726][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.06.11-03.16.13:726][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.06.11-03.16.13:726][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.06.11-03.16.13:726][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.06.11-03.16.13:726][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.06.11-03.16.13:726][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.06.11-03.16.13:726][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.06.11-03.16.13:726][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.06.11-03.16.13:726][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.06.11-03.16.13:726][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.06.11-03.16.13:726][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.06.11-03.16.13:726][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.06.11-03.16.13:726][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.06.11-03.16.13:726][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.06.11-03.16.13:726][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.06.11-03.16.13:726][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.06.11-03.16.13:726][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.06.11-03.16.13:726][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.06.11-03.16.13:726][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.06.11-03.16.13:726][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.06.11-03.16.13:726][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.06.11-03.16.13:726][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Saved/Config/Windows/Scalability.ini]
+[2020.06.11-03.16.13:726][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.06.11-03.16.13:726][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.06.11-03.16.13:726][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.06.11-03.16.13:726][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.06.11-03.16.13:726][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.06.11-03.16.13:726][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.06.11-03.16.13:726][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.06.11-03.16.13:726][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.06.11-03.16.13:726][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.06.11-03.16.13:726][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Saved/Config/Windows/Scalability.ini]
+[2020.06.11-03.16.13:726][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.06.11-03.16.13:726][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.06.11-03.16.13:726][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.06.11-03.16.13:726][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.06.11-03.16.13:726][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.06.11-03.16.13:726][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.06.11-03.16.13:726][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.06.11-03.16.13:726][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.06.11-03.16.13:726][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.06.11-03.16.13:726][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.06.11-03.16.13:726][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.06.11-03.16.13:726][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.06.11-03.16.13:726][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.06.11-03.16.13:726][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.06.11-03.16.13:726][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.06.11-03.16.13:726][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.06.11-03.16.13:726][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.06.11-03.16.13:726][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.06.11-03.16.13:726][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.06.11-03.16.13:726][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.06.11-03.16.13:726][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.06.11-03.16.13:726][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.06.11-03.16.13:726][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.06.11-03.16.13:726][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.06.11-03.16.13:726][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.06.11-03.16.13:726][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.06.11-03.16.13:726][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Saved/Config/Windows/Scalability.ini]
+[2020.06.11-03.16.13:726][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.06.11-03.16.13:726][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.06.11-03.16.13:727][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Saved/Config/Windows/Scalability.ini]
+[2020.06.11-03.16.13:727][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.06.11-03.16.13:727][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.06.11-03.16.13:727][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.06.11-03.16.13:727][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.06.11-03.16.13:727][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.06.11-03.16.13:727][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.06.11-03.16.13:727][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.06.11-03.16.13:727][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.06.11-03.16.13:732][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.06.11-03.16.13:732][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.06.11-03.16.13:732][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.06.11-03.16.13:732][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Saved/Config/Windows/Engine.ini]
+[2020.06.11-03.16.13:732][  0]LogInit: Computer: LAPTOP-709FOJ2F
+[2020.06.11-03.16.13:732][  0]LogInit: User: zeyul
+[2020.06.11-03.16.13:732][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.06.11-03.16.13:732][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.06.11-03.16.13:732][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2020.06.11-03.16.13:732][  0]LogMemory: Platform Memory Stats for Windows
+[2020.06.11-03.16.13:732][  0]LogMemory: Process Physical Memory: 114.29 MB used, 114.29 MB peak
+[2020.06.11-03.16.13:732][  0]LogMemory: Process Virtual Memory: 96.45 MB used, 96.45 MB peak
+[2020.06.11-03.16.13:732][  0]LogMemory: Physical Memory: 4737.32 MB used,  3334.91 MB free, 8072.24 MB total
+[2020.06.11-03.16.13:732][  0]LogMemory: Virtual Memory: 5144.14 MB used,  134212584.00 MB free, 134217728.00 MB total
+[2020.06.11-03.16.13:737][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.06.11-03.16.13:784][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.06.11-03.16.13:787][  0]LogInit: Using OS detected language (en-US).
+[2020.06.11-03.16.13:787][  0]LogInit: Using OS detected locale (en-CA).
+[2020.06.11-03.16.13:797][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.06.11-03.16.14:129][  0]LogInit: Setting process to per monitor DPI aware
+[2020.06.11-03.16.14:229][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.06.11-03.16.14:229][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.06.11-03.16.17:952][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.06.11-03.16.17:952][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.06.11-03.16.17:952][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.06.11-03.16.17:952][  0]LogD3D11RHI: D3D11 adapters:
+[2020.06.11-03.16.18:040][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050' (Feature Level 11_0)
+[2020.06.11-03.16.18:040][  0]LogD3D11RHI:       2996/0/4036 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.06.11-03.16.18:116][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
+[2020.06.11-03.16.18:116][  0]LogD3D11RHI:       128/0/4036 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2020.06.11-03.16.18:118][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.06.11-03.16.18:119][  0]LogD3D11RHI:       0/0/4036 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.06.11-03.16.18:119][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.06.11-03.16.18:125][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.06.11-03.16.18:125][  0]LogD3D11RHI:     GPU DeviceId: 0x1c91 (for the marketing name, search the web for "GPU Device Id")
+[2020.06.11-03.16.18:125][  0]LogWindows: EnumDisplayDevices:
+[2020.06.11-03.16.18:125][  0]LogWindows:    0. 'Intel(R) UHD Graphics 630' (P:0 D:1)
+[2020.06.11-03.16.18:125][  0]LogWindows:    1. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2020.06.11-03.16.18:126][  0]LogWindows:    2. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2020.06.11-03.16.18:126][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050' (P:1 D:1)
+[2020.06.11-03.16.18:126][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter 
+[2020.06.11-03.16.18:126][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050
+[2020.06.11-03.16.18:126][  0]LogD3D11RHI:   Driver Version: 445.87 (internal:26.21.14.4587, unified:445.87)
+[2020.06.11-03.16.18:126][  0]LogD3D11RHI:      Driver Date: 4-3-2020
+[2020.06.11-03.16.18:126][  0]LogRHI: Texture pool is 2097 MB (70% of 2996 MB)
+[2020.06.11-03.16.18:166][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.06.11-03.16.18:169][  0]LogD3D11RHI: [Aftermath] Enabled and primed
+[2020.06.11-03.16.18:169][  0]LogD3D11RHI: Async texture creation enabled
+[2020.06.11-03.16.18:169][  0]LogD3D11RHI: Array index from any shader is supported
+[2020.06.11-03.16.18:184][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.06.11-03.16.18:678][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.06.11-03.16.18:698][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.06.11-03.16.18:699][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.06.11-03.16.18:699][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.06.11-03.16.18:699][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.06.11-03.16.18:699][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.06.11-03.16.18:699][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.06.11-03.16.18:699][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.06.11-03.16.18:699][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.06.11-03.16.18:699][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.06.11-03.16.18:699][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.06.11-03.16.18:735][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.06.11-03.16.18:735][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.06.11-03.16.18:757][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2020.06.11-03.16.18:767][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.06.11-03.16.18:777][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.06.11-03.16.18:787][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.06.11-03.16.18:797][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.06.11-03.16.18:807][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.06.11-03.16.18:817][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.06.11-03.16.18:848][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.06.11-03.16.18:848][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.06.11-03.16.18:864][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.06.11-03.16.18:864][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.06.11-03.16.18:874][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.06.11-03.16.18:883][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.06.11-03.16.18:893][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.06.11-03.16.18:902][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.06.11-03.16.18:902][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.06.11-03.16.18:913][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.06.11-03.16.18:990][  0]LogShaderCompilers: Guid format shader working directory is -33 characters bigger than the processId version (../../../../../../Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Intermediate/Shaders/WorkingDirectory/18008/).
+[2020.06.11-03.16.18:990][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/zeyul/AppData/Local/Temp/UnrealShaderWorkingDir/4C04769C4DF82BD73112628A60C73F10/'.
+[2020.06.11-03.16.18:991][  0]LogXGEController: Cleaning working directory: C:/Users/zeyul/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.06.11-03.16.18:991][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.06.11-03.16.18:991][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.06.11-03.16.18:991][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.06.11-03.16.20:273][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.06.11-03.16.20:361][  0]LogDerivedDataCache: Loaded boot cache 0.09s 130MB C:/Users/zeyul/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.06.11-03.16.20:361][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/zeyul/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.06.11-03.16.20:361][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.06.11-03.16.20:361][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.06.11-03.16.20:361][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.06.11-03.16.20:361][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.06.11-03.16.20:372][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.06.11-03.16.20:372][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.06.11-03.16.20:372][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.06.11-03.16.20:373][  0]LogDerivedDataCache: Using Local data cache path C:/Users/zeyul/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.06.11-03.16.20:373][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.06.11-03.16.20:373][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.06.11-03.16.20:430][  0]LogSlate: Using FreeType 2.10.0
+[2020.06.11-03.16.20:451][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.06.11-03.16.20:475][  0]LogAssetRegistry: FAssetRegistry took 0.0023 seconds to start up
+[2020.06.11-03.16.20:695][  0]LogInit: Selected Device Profile: [Windows]
+[2020.06.11-03.16.20:804][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.06.11-03.16.20:804][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.06.11-03.16.20:804][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.06.11-03.16.20:804][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.06.11-03.16.20:804][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.06.11-03.16.20:817][  0]LogNetVersion: Unreal_Template 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 661189453)
+[2020.06.11-03.16.21:360][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000001A6C2B8C740), frame # 0
+[2020.06.11-03.16.21:360][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001A6C2AD9440), frame # 0
+[2020.06.11-03.16.21:363][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001A6C2B02C00), frame # 0
+[2020.06.11-03.16.21:499][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.125723 seconds
+[2020.06.11-03.16.21:505][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2020.06.11-03.16.21:505][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2020.06.11-03.16.21:505][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.06.11-03.16.21:929][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.06.11-03.16.21:934][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.06.11-03.16.22:043][  0]SourceControl: Source control is disabled
+[2020.06.11-03.16.23:203][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.06.11-03.16.23:240][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.06.11-03.16.23:240][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.06.11-03.16.23:315][  0]LogOcInput: OculusInput pre-init called
+[2020.06.11-03.16.23:331][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.06.11-03.16.23:331][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.06.11-03.16.23:416][  0]LogEngine: Initializing Engine...
+[2020.06.11-03.16.23:418][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.06.11-03.16.23:418][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2020.06.11-03.16.23:419][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.06.11-03.16.23:620][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.06.11-03.16.23:632][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.06.11-03.16.23:632][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001A6C5C0FC00), frame # 0
+[2020.06.11-03.16.23:632][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001A6C5C62200), frame # 0
+[2020.06.11-03.16.23:644][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.11-03.16.23:644][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.11-03.16.23:644][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.11-03.16.23:645][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.11-03.16.23:645][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.11-03.16.23:645][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.11-03.16.23:645][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.11-03.16.23:645][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.11-03.16.23:645][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.11-03.16.23:645][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.11-03.16.23:659][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.11-03.16.23:659][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.06.11-03.16.23:696][  0]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.06.11-03.16.23:701][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.06.11-03.16.23:704][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.06.11-03.16.23:704][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.06.11-03.16.23:704][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.06.11-03.16.23:706][  0]LogInit: FAudioDevice initialized.
+[2020.06.11-03.16.23:706][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.06.11-03.16.23:822][  0]LogDerivedDataCache: Saved boot cache 0.12s 130MB C:/Users/zeyul/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.06.11-03.16.23:832][  0]LogInit: Texture streaming: Enabled
+[2020.06.11-03.16.23:845][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.06.11-03.16.23:845][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.06.11-03.16.23:846][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.06.11-03.16.23:934][  0]LogInit: Transaction tracking system initialized
+[2020.06.11-03.16.23:955][  0]BlueprintLog: New page: Editor Load
+[2020.06.11-03.16.24:012][  0]LocalizationService: Localization service is disabled
+[2020.06.11-03.16.24:165][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.06.11-03.16.24:165][  0]LogCook: Display: Mobile HDR setting 1
+[2020.06.11-03.16.24:270][  0]LogFileCache: Scanning file cache for directory 'C:/Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Content/' took 0.01s
+[2020.06.11-03.16.24:523][  0]LogUnrealEdMisc: Loading editor; pre map load, took 16.774
+[2020.06.11-03.16.24:523][  0]Cmd: MAP LOAD FILE="../../../../../../Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.06.11-03.16.24:524][  0]LogEditorServer: Warning: Can't find file '../../../../../../Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2020.06.11-03.16.24:524][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.06.11-03.16.24:524][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.129ms to complete.
+[2020.06.11-03.16.24:524][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.000
+[2020.06.11-03.16.24:525][  0]LogUnrealEdMisc: Total Editor Startup Time, took 16.776
+[2020.06.11-03.16.24:644][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.11-03.16.24:654][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.11-03.16.24:668][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.11-03.16.24:680][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.11-03.16.24:688][  0]LogCollectionManager: Loaded 0 collections in 0.002407 seconds
+[2020.06.11-03.16.24:711][  0]LogFileCache: Scanning file cache for directory 'C:/Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Saved/Collections/' took 0.00s
+[2020.06.11-03.16.24:711][  0]LogFileCache: Scanning file cache for directory 'C:/Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Content/Developers/zeyul/Collections/' took 0.00s
+[2020.06.11-03.16.24:711][  0]LogFileCache: Scanning file cache for directory 'C:/Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Content/Collections/' took 0.00s
+[2020.06.11-03.16.24:711][  0]LogContentBrowser: Native class hierarchy populated in 0.0175 seconds. Added 3426 classes and 820 folders.
+[2020.06.11-03.16.24:716][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.06.11-03.16.24:779][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.06.11-03.16.24:785][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 2 classes and 0 folders.
+[2020.06.11-03.16.24:891][  0]LogSlate: Took 0.000205 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.06.11-03.16.24:894][  0]LogSlate: Took 0.000169 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.06.11-03.16.24:898][  0]LogSlate: Took 0.000128 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.06.11-03.16.24:974][  0]LogRenderer: Reallocating scene render targets to support 1228x628 Format 10 NumSamples 1 (Frame:1).
+[2020.06.11-03.16.25:087][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2020.06.11-03.16.25:087][  0]LogLoad: (Engine Initialization) Total time: 17.34 seconds
+[2020.06.11-03.16.25:087][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.06.11-03.16.25:140][  0]LogAssetRegistry: Asset discovery search completed in 4.6655 seconds
+[2020.06.11-03.16.25:144][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000003 seconds (updated 0 objects)
+[2020.06.11-03.16.25:146][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.06.11-03.16.25:194][  0]LogSlate: Took 0.000337 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.06.11-03.16.25:445][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Content/' took 0.33s
+[2020.06.11-03.16.28:145][  9]LogSlate: Took 0.000129 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.06.11-03.17.01:470][109]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/Main.Main
+[2020.06.11-03.17.01:486][109]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2020.06.11-03.17.01:493][109]Cmd: MAP LOAD FILE="../../../../../../Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Content/Maps/Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.06.11-03.17.01:493][109]LightingResults: New page: Lighting Build
+[2020.06.11-03.17.01:494][109]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0004 seconds. Added 6 classes and 0 folders.
+[2020.06.11-03.17.01:498][109]LoadErrors: New page: Loading map: Main.umap
+[2020.06.11-03.17.01:498][109]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.06.11-03.17.01:498][109]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.11-03.17.01:498][109]MapCheck: New page: Map Check
+[2020.06.11-03.17.01:498][109]LightingResults: New page: Lighting Build
+[2020.06.11-03.17.01:507][109]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001A6C5C0FC00), frame # 109
+[2020.06.11-03.17.01:507][109]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001A6C5C62200), frame # 109
+[2020.06.11-03.17.01:508][109]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2020.06.11-03.17.02:347][109]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.06.11-03.17.02:347][109]LogAIModule: Creating AISystem for world Main
+[2020.06.11-03.17.02:347][109]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001A6E4460E00), frame # 109
+[2020.06.11-03.17.02:347][109]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001A6BC92AE80), frame # 109
+[2020.06.11-03.17.02:358][109]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2020.06.11-03.17.02:392][109]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.06.11-03.17.02:392][109]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.111ms to complete.
+[2020.06.11-03.17.02:392][109]LogFileHelpers: Loading map 'Main' took 0.901
+[2020.06.11-03.17.58:661][417]AssetReimport: New page: Outstanding source content changes 3:17:58 p.m.
+[2020.06.11-03.17.58:665][417]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Content/Models/trees/bark03_n.png)
+[2020.06.11-03.17.58:815][418]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Content/Models/trees/bark03_s.png)
+[2020.06.11-03.17.59:005][419]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Content/Models/trees/bark12.png)
+[2020.06.11-03.17.59:215][420]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Content/Models/trees/bark12_n.png)
+[2020.06.11-03.17.59:280][421]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Content/Models/trees/bark12_s.png)
+[2020.06.11-03.17.59:398][422]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Content/Models/trees/leaf tropical.png)
+[2020.06.11-03.17.59:501][423]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Content/Models/trees/leaf tropical_n.png)
+[2020.06.11-03.17.59:581][424]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Content/Models/trees/leaf tropical_s.png)
+[2020.06.11-03.17.59:698][425]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Content/Models/trees/leaf tropical_t.png)
+[2020.06.11-03.17.59:815][426]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Content/Models/trees/leaf walnut.png)
+[2020.06.11-03.17.59:898][427]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Content/Models/trees/leaf walnut_n.png)
+[2020.06.11-03.17.59:980][428]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Content/Models/trees/leaf walnut_s.png)
+[2020.06.11-03.18.00:097][429]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Content/Models/trees/leaf walnut_t.png)
+[2020.06.11-03.18.00:183][430]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Content/Models/trees/tree1.fbx)
+[2020.06.11-03.18.00:241][430]LogFbx: Loading FBX Scene from C:/Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Content/Models/trees/tree1.fbx
+[2020.06.11-03.18.00:278][430]LogFbx: FBX Scene Loaded Succesfully
+[2020.06.11-03.18.04:579][430]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.06.11-03.18.04:963][430]LogStaticMesh: Building static mesh tree1_Tree_0...
+[2020.06.11-03.18.04:993][430]LogStaticMesh: Built static mesh [0.03s] /Game/Models/trees/tree1_Tree_0.tree1_Tree_0
+[2020.06.11-03.18.05:129][430]LogStaticMesh: Building static mesh tree1_Tree_1...
+[2020.06.11-03.18.05:158][430]LogStaticMesh: Built static mesh [0.03s] /Game/Models/trees/tree1_Tree_1.tree1_Tree_1
+[2020.06.11-03.18.05:220][431]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Content/Models/trees/tree2.fbx)
+[2020.06.11-03.18.05:270][431]LogFbx: Loading FBX Scene from C:/Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Content/Models/trees/tree2.fbx
+[2020.06.11-03.18.05:318][431]LogFbx: FBX Scene Loaded Succesfully
+[2020.06.11-03.18.07:320][431]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.06.11-03.18.07:644][431]LogStaticMesh: Building static mesh tree2_Tree_0...
+[2020.06.11-03.18.07:703][431]LogStaticMesh: Built static mesh [0.06s] /Game/Models/trees/tree2_Tree_0.tree2_Tree_0
+[2020.06.11-03.18.07:841][431]LogStaticMesh: Building static mesh tree2_Tree_1...
+[2020.06.11-03.18.07:876][431]LogStaticMesh: Built static mesh [0.03s] /Game/Models/trees/tree2_Tree_1.tree2_Tree_1
+[2020.06.11-03.18.08:140][432]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/trees/bark03_n" FILE="../../../../../../Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Content/Models/trees/bark03_n.uasset" SILENT=true
+[2020.06.11-03.18.08:217][432]LogSavePackage: Moving '../../../../../../Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Saved/bark03_n5ECD2A2546FFF91F5E80668ECE0F436C.tmp' to '../../../../../../Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Content/Models/trees/bark03_n.uasset'
+[2020.06.11-03.18.08:509][432]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 48
+[2020.06.11-03.18.08:551][432]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 38
+[2020.06.11-03.18.08:551][432]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/trees/bark03_s" FILE="../../../../../../Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Content/Models/trees/bark03_s.uasset" SILENT=true
+[2020.06.11-03.18.08:601][432]LogSavePackage: Moving '../../../../../../Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Saved/bark03_s19B64BFF49A3245D60A6C8A474348744.tmp' to '../../../../../../Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Content/Models/trees/bark03_s.uasset'
+[2020.06.11-03.18.08:963][432]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/trees/bark12" FILE="../../../../../../Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Content/Models/trees/bark12.uasset" SILENT=true
+[2020.06.11-03.18.09:055][432]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 28
+[2020.06.11-03.18.09:055][432]LogSavePackage: Moving '../../../../../../Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Saved/bark12AD71CC244B3CA68731BE7082061F50D5.tmp' to '../../../../../../Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Content/Models/trees/bark12.uasset'
+[2020.06.11-03.18.09:447][432]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/trees/bark12_n" FILE="../../../../../../Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Content/Models/trees/bark12_n.uasset" SILENT=true
+[2020.06.11-03.18.09:508][432]LogSavePackage: Moving '../../../../../../Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Saved/bark12_n30B611D44E874BF17CD5109C7248F91B.tmp' to '../../../../../../Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Content/Models/trees/bark12_n.uasset'
+[2020.06.11-03.18.09:865][432]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/trees/bark12_s" FILE="../../../../../../Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Content/Models/trees/bark12_s.uasset" SILENT=true
+[2020.06.11-03.18.09:916][432]LogSavePackage: Moving '../../../../../../Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Saved/bark12_s40F092964F4447E4608C21890C97A5E4.tmp' to '../../../../../../Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Content/Models/trees/bark12_s.uasset'
+[2020.06.11-03.18.10:256][432]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/trees/leaf_tropical" FILE="../../../../../../Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Content/Models/trees/leaf_tropical.uasset" SILENT=true
+[2020.06.11-03.18.10:307][432]LogSavePackage: Moving '../../../../../../Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Saved/leaf_tropical174C1EA443C79F034A7419B887B71C7B.tmp' to '../../../../../../Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Content/Models/trees/leaf_tropical.uasset'
+[2020.06.11-03.18.10:658][432]LogSavePackage: Moving '../../../../../../Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Saved/leaf_tropical_n3574F69948494BBF0E4FD3AADA9A9E70.tmp' to '../../../../../../Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Content/Models/trees/leaf_tropical_n.uasset'
+[2020.06.11-03.18.10:804][432]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 20
+[2020.06.11-03.18.10:999][432]LogSavePackage: Moving '../../../../../../Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Saved/leaf_tropical_sDD8D1136483F8BE2B1460CB9BABD0386.tmp' to '../../../../../../Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Content/Models/trees/leaf_tropical_s.uasset'
+[2020.06.11-03.18.11:267][432]LogSavePackage: Moving '../../../../../../Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Saved/leaf_tropical_t771623064D25B0B594DABBBFEE68DF7C.tmp' to '../../../../../../Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Content/Models/trees/leaf_tropical_t.uasset'
+[2020.06.11-03.18.11:498][432]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/trees/leaf_walnut" FILE="../../../../../../Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Content/Models/trees/leaf_walnut.uasset" SILENT=true
+[2020.06.11-03.18.11:524][432]LogSavePackage: Moving '../../../../../../Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Saved/leaf_walnutBB0CE0C9465F061C719437BFCC65AE9E.tmp' to '../../../../../../Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Content/Models/trees/leaf_walnut.uasset'
+[2020.06.11-03.18.11:769][432]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/trees/leaf_walnut_n" FILE="../../../../../../Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Content/Models/trees/leaf_walnut_n.uasset" SILENT=true
+[2020.06.11-03.18.11:793][432]LogSavePackage: Moving '../../../../../../Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Saved/leaf_walnut_nA71733D947DF7E5C891B2A8D32E235E6.tmp' to '../../../../../../Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Content/Models/trees/leaf_walnut_n.uasset'
+[2020.06.11-03.18.12:032][432]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/trees/leaf_walnut_s" FILE="../../../../../../Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Content/Models/trees/leaf_walnut_s.uasset" SILENT=true
+[2020.06.11-03.18.12:059][432]LogSavePackage: Moving '../../../../../../Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Saved/leaf_walnut_s924DB2EE43E68C02C68FE3A2D14483DA.tmp' to '../../../../../../Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Content/Models/trees/leaf_walnut_s.uasset'
+[2020.06.11-03.18.12:299][432]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/trees/leaf_walnut_t" FILE="../../../../../../Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Content/Models/trees/leaf_walnut_t.uasset" SILENT=true
+[2020.06.11-03.18.12:328][432]LogSavePackage: Moving '../../../../../../Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Saved/leaf_walnut_tBF8DCED844013DF5DF9CF0B0C81416AD.tmp' to '../../../../../../Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Content/Models/trees/leaf_walnut_t.uasset'
+[2020.06.11-03.18.12:553][432]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/trees/tree1" FILE="../../../../../../Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Content/Models/trees/tree1.uasset" SILENT=true
+[2020.06.11-03.18.12:571][432]LogSavePackage: Moving '../../../../../../Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Saved/tree125DF667E4E4F3012B34A0494746E61B3.tmp' to '../../../../../../Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Content/Models/trees/tree1.uasset'
+[2020.06.11-03.18.12:784][432]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/trees/tree2" FILE="../../../../../../Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Content/Models/trees/tree2.uasset" SILENT=true
+[2020.06.11-03.18.12:797][432]LogSavePackage: Moving '../../../../../../Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Saved/tree24042E0EC472811361B79A19DA6747262.tmp' to '../../../../../../Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Content/Models/trees/tree2.uasset'
+[2020.06.11-03.18.13:171][433]AssetCheck: New page: Asset Save: multiple assets
+[2020.06.11-03.18.13:171][433]LogContentValidation: Display: Validating Texture2D /Game/Models/trees/bark03_n.bark03_n
+[2020.06.11-03.18.13:171][433]LogContentValidation: Display: Validating Texture2D /Game/Models/trees/bark03_s.bark03_s
+[2020.06.11-03.18.13:171][433]LogContentValidation: Display: Validating Texture2D /Game/Models/trees/bark12.bark12
+[2020.06.11-03.18.13:172][433]LogContentValidation: Display: Validating Texture2D /Game/Models/trees/bark12_n.bark12_n
+[2020.06.11-03.18.13:172][433]LogContentValidation: Display: Validating Texture2D /Game/Models/trees/bark12_s.bark12_s
+[2020.06.11-03.18.13:172][433]LogContentValidation: Display: Validating Texture2D /Game/Models/trees/leaf_tropical.leaf_tropical
+[2020.06.11-03.18.13:172][433]LogContentValidation: Display: Validating Texture2D /Game/Models/trees/leaf_tropical_n.leaf_tropical_n
+[2020.06.11-03.18.13:172][433]LogContentValidation: Display: Validating Texture2D /Game/Models/trees/leaf_tropical_s.leaf_tropical_s
+[2020.06.11-03.18.13:172][433]LogContentValidation: Display: Validating Texture2D /Game/Models/trees/leaf_tropical_t.leaf_tropical_t
+[2020.06.11-03.18.13:172][433]LogContentValidation: Display: Validating Texture2D /Game/Models/trees/leaf_walnut.leaf_walnut
+[2020.06.11-03.18.13:172][433]LogContentValidation: Display: Validating Texture2D /Game/Models/trees/leaf_walnut_n.leaf_walnut_n
+[2020.06.11-03.18.13:172][433]LogContentValidation: Display: Validating Texture2D /Game/Models/trees/leaf_walnut_s.leaf_walnut_s
+[2020.06.11-03.18.13:172][433]LogContentValidation: Display: Validating Texture2D /Game/Models/trees/leaf_walnut_t.leaf_walnut_t
+[2020.06.11-03.18.13:803][450]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 14
+[2020.06.11-03.18.14:703][490]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 10
+[2020.06.11-03.18.15:257][514]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 7
+[2020.06.11-03.18.16:017][544]AssetReimport: Importing new asset /Game/Models/trees/bark03_n.
+[2020.06.11-03.18.16:017][544]AssetReimport: Importing new asset /Game/Models/trees/bark03_s.
+[2020.06.11-03.18.16:017][544]AssetReimport: Importing new asset /Game/Models/trees/bark12.
+[2020.06.11-03.18.16:017][544]AssetReimport: Importing new asset /Game/Models/trees/bark12_n.
+[2020.06.11-03.18.16:017][544]AssetReimport: Importing new asset /Game/Models/trees/bark12_s.
+[2020.06.11-03.18.16:017][544]AssetReimport: Importing new asset /Game/Models/trees/leaf_tropical.
+[2020.06.11-03.18.16:018][544]AssetReimport: Importing new asset /Game/Models/trees/leaf_tropical_n.
+[2020.06.11-03.18.16:018][544]AssetReimport: Importing new asset /Game/Models/trees/leaf_tropical_s.
+[2020.06.11-03.18.16:018][544]AssetReimport: Importing new asset /Game/Models/trees/leaf_tropical_t.
+[2020.06.11-03.18.16:018][544]AssetReimport: Importing new asset /Game/Models/trees/leaf_walnut.
+[2020.06.11-03.18.16:018][544]AssetReimport: Importing new asset /Game/Models/trees/leaf_walnut_n.
+[2020.06.11-03.18.16:018][544]AssetReimport: Importing new asset /Game/Models/trees/leaf_walnut_s.
+[2020.06.11-03.18.16:018][544]AssetReimport: Importing new asset /Game/Models/trees/leaf_walnut_t.
+[2020.06.11-03.18.16:018][544]AssetReimport: Importing new asset /Game/Models/trees/tree1.
+[2020.06.11-03.18.16:018][544]AssetReimport: Importing new asset /Game/Models/trees/tree2.
+[2020.06.11-03.18.16:073][548]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 5
+[2020.06.11-03.18.17:502][604]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 3
+[2020.06.11-03.18.17:569][607]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 2
+[2020.06.11-03.18.17:585][608]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 1
+[2020.06.11-03.18.28:426][977]LogActorFactory: Actor Factory created tree1_Tree_1
+[2020.06.11-03.18.30:217][ 44]LogActorFactory: Actor Factory created tree1_Tree_1
+[2020.06.11-03.18.53:098][813]Cmd: DELETE
+[2020.06.11-03.18.53:098][813]Cmd: ACTOR DELETE
+[2020.06.11-03.18.53:140][813]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.06.11-03.18.53:154][813]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2020.06.11-03.18.53:156][813]LogEditorActor: Deleted 1 Actors (0.050 secs)
+[2020.06.11-03.18.58:539][994]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Models/trees/tree1_Tree_0.tree1_Tree_0
+[2020.06.11-03.18.59:455][994]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2020.06.11-03.18.59:455][994]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.11-03.18.59:835][994]LogRenderer: Reallocating scene render targets to support 1432x920 Format 10 NumSamples 1 (Frame:1).
+[2020.06.11-03.18.59:835][994]LogSlate: Took 0.032454 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.06.11-03.19.07:497][310]LogSlate: Window 'tree1_Tree_0' being destroyed
+[2020.06.11-03.19.07:503][310]LogSlate: Window 'tree1_Tree_0' being destroyed
+[2020.06.11-03.19.07:506][310]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2020.06.11-03.19.07:506][310]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.11-03.19.08:938][350]LogActorFactory: Actor Factory created tree1_Tree_0
+[2020.06.11-03.19.09:315][364]LogActorFactory: Actor Factory created tree1_Tree_0
+[2020.06.11-03.19.10:440][404]LogActorFactory: Actor Factory created tree1_Tree_1
+[2020.06.11-03.19.10:871][420]LogActorFactory: Actor Factory created tree1_Tree_1
+[2020.06.11-03.19.13:766][525]Cmd: TRANSACTION UNDO
+[2020.06.11-03.19.13:766][525]LogEditorTransaction: Undo Create Actors
+[2020.06.11-03.19.14:332][539]Cmd: TRANSACTION UNDO
+[2020.06.11-03.19.14:332][539]LogEditorTransaction: Undo Create Actors
+[2020.06.11-03.20.12:954][857]Cmd: TRANSACTION UNDO
+[2020.06.11-03.20.12:954][857]LogEditorTransaction: Undo Delete Actors
+[2020.06.11-03.20.13:215][862]Cmd: TRANSACTION UNDO
+[2020.06.11-03.20.13:215][862]LogEditorTransaction: Undo Set Scale
+[2020.06.11-03.20.13:679][883]Cmd: TRANSACTION UNDO
+[2020.06.11-03.20.13:679][883]LogEditorTransaction: Undo Set Scale
+[2020.06.11-03.20.14:029][904]Cmd: TRANSACTION UNDO
+[2020.06.11-03.20.14:029][904]LogEditorTransaction: Undo Set Scale
+[2020.06.11-03.20.14:253][913]Cmd: TRANSACTION UNDO
+[2020.06.11-03.20.14:253][913]LogEditorTransaction: Undo Create Actors
+[2020.06.11-03.21.11:776][352]AssetReimport: New page: Outstanding source content changes 3:21:11 p.m.
+[2020.06.11-03.21.11:777][352]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Content/Models/trees/leaf walnut_n.png)
+[2020.06.11-03.21.17:028][352]LogSlate: Window 'Message' being destroyed
+[2020.06.11-03.21.17:077][353]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Content/Models/trees/leaf walnut.png)
+[2020.06.11-03.21.18:227][353]LogSlate: Window 'Message' being destroyed
+[2020.06.11-03.21.18:286][354]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Content/Models/trees/leaf tropical_t.png)
+[2020.06.11-03.21.18:993][354]LogSlate: Window 'Message' being destroyed
+[2020.06.11-03.21.19:069][355]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Content/Models/trees/leaf tropical_s.png)
+[2020.06.11-03.21.19:656][355]LogSlate: Window 'Message' being destroyed
+[2020.06.11-03.21.19:730][356]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Content/Models/trees/leaf tropical_n.png)
+[2020.06.11-03.21.21:099][356]LogSlate: Window 'Message' being destroyed
+[2020.06.11-03.21.21:161][357]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Content/Models/trees/leaf tropical.png)
+[2020.06.11-03.21.21:695][357]LogSlate: Window 'Message' being destroyed
+[2020.06.11-03.21.21:774][358]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Content/Models/trees/bark12_s.png)
+[2020.06.11-03.21.22:291][358]LogSlate: Window 'Message' being destroyed
+[2020.06.11-03.21.22:377][359]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Content/Models/trees/bark12_n.png)
+[2020.06.11-03.21.22:647][359]LogSlate: Window 'Message' being destroyed
+[2020.06.11-03.21.22:731][360]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Content/Models/trees/bark12.png)
+[2020.06.11-03.21.27:685][360]LogSlate: Window 'Message' being destroyed
+[2020.06.11-03.21.27:851][361]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Content/Models/trees/bark03_s.png)
+[2020.06.11-03.21.28:798][361]LogSlate: Window 'Message' being destroyed
+[2020.06.11-03.21.28:919][362]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Content/Models/trees/bark03_n.png)
+[2020.06.11-03.21.29:699][362]LogSlate: Window 'Message' being destroyed
+[2020.06.11-03.21.29:776][363]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Content/Models/trees/leaf walnut_t.png)
+[2020.06.11-03.21.30:414][363]LogSlate: Window 'Message' being destroyed
+[2020.06.11-03.21.30:474][364]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Content/Models/trees/leaf walnut_s.png)
+[2020.06.11-03.21.31:231][364]LogSlate: Window 'Message' being destroyed
+[2020.06.11-03.21.31:422][365]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/trees/leaf_walnut_n" FILE="../../../../../../Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Content/Models/trees/leaf_walnut_n.uasset" SILENT=true
+[2020.06.11-03.21.31:437][365]LogSavePackage: Moving '../../../../../../Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Saved/leaf_walnut_n555A94264BA73E641F05C3875A2284FD.tmp' to '../../../../../../Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Content/Models/trees/leaf_walnut_n.uasset'
+[2020.06.11-03.21.31:580][365]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/trees/leaf_walnut" FILE="../../../../../../Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Content/Models/trees/leaf_walnut.uasset" SILENT=true
+[2020.06.11-03.21.31:595][365]LogSavePackage: Moving '../../../../../../Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Saved/leaf_walnutB5F348E94D5BCF572FB81E8A5C7D7460.tmp' to '../../../../../../Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Content/Models/trees/leaf_walnut.uasset'
+[2020.06.11-03.21.31:745][365]LogSavePackage: Moving '../../../../../../Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Saved/leaf_tropical_t174E63C443DD30E1FE9889BADDC13698.tmp' to '../../../../../../Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Content/Models/trees/leaf_tropical_t.uasset'
+[2020.06.11-03.21.31:903][365]LogSavePackage: Moving '../../../../../../Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Saved/leaf_tropical_s816E8836418FB9544BC3FFA923D00329.tmp' to '../../../../../../Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Content/Models/trees/leaf_tropical_s.uasset'
+[2020.06.11-03.21.32:074][365]LogSavePackage: Moving '../../../../../../Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Saved/leaf_tropical_n583DCF44487D1BBAF12302B207445F82.tmp' to '../../../../../../Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Content/Models/trees/leaf_tropical_n.uasset'
+[2020.06.11-03.21.32:235][365]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/trees/leaf_tropical" FILE="../../../../../../Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Content/Models/trees/leaf_tropical.uasset" SILENT=true
+[2020.06.11-03.21.32:264][365]LogSavePackage: Moving '../../../../../../Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Saved/leaf_tropicalEB8647D74634998007BFD0AE6430FDCA.tmp' to '../../../../../../Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Content/Models/trees/leaf_tropical.uasset'
+[2020.06.11-03.21.32:421][365]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/trees/bark12_s" FILE="../../../../../../Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Content/Models/trees/bark12_s.uasset" SILENT=true
+[2020.06.11-03.21.32:445][365]LogSavePackage: Moving '../../../../../../Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Saved/bark12_s73FB23004164E7A7D5E88884B85ACEC4.tmp' to '../../../../../../Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Content/Models/trees/bark12_s.uasset'
+[2020.06.11-03.21.32:604][365]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/trees/bark12_n" FILE="../../../../../../Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Content/Models/trees/bark12_n.uasset" SILENT=true
+[2020.06.11-03.21.32:637][365]LogSavePackage: Moving '../../../../../../Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Saved/bark12_n4C44B2D441640B98C2103B96D1A3865F.tmp' to '../../../../../../Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Content/Models/trees/bark12_n.uasset'
+[2020.06.11-03.21.32:815][365]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/trees/bark12" FILE="../../../../../../Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Content/Models/trees/bark12.uasset" SILENT=true
+[2020.06.11-03.21.32:864][365]LogSavePackage: Moving '../../../../../../Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Saved/bark12A37788AE4CC16364197D6C94E0EAC54E.tmp' to '../../../../../../Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Content/Models/trees/bark12.uasset'
+[2020.06.11-03.21.33:054][365]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/trees/bark03_s" FILE="../../../../../../Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Content/Models/trees/bark03_s.uasset" SILENT=true
+[2020.06.11-03.21.33:077][365]LogSavePackage: Moving '../../../../../../Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Saved/bark03_s88E848C24762BEA5724BA69216E7784A.tmp' to '../../../../../../Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Content/Models/trees/bark03_s.uasset'
+[2020.06.11-03.21.33:225][365]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/trees/bark03_n" FILE="../../../../../../Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Content/Models/trees/bark03_n.uasset" SILENT=true
+[2020.06.11-03.21.33:273][365]LogSavePackage: Moving '../../../../../../Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Saved/bark03_nCD8C0C574E57CBE0528C9FBBA58AF964.tmp' to '../../../../../../Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Content/Models/trees/bark03_n.uasset'
+[2020.06.11-03.21.33:455][365]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/trees/leaf_walnut_t" FILE="../../../../../../Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Content/Models/trees/leaf_walnut_t.uasset" SILENT=true
+[2020.06.11-03.21.33:470][365]LogSavePackage: Moving '../../../../../../Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Saved/leaf_walnut_tE04D70AF4E09B8D9018EC68B8B894542.tmp' to '../../../../../../Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Content/Models/trees/leaf_walnut_t.uasset'
+[2020.06.11-03.21.33:634][365]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/trees/leaf_walnut_s" FILE="../../../../../../Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Content/Models/trees/leaf_walnut_s.uasset" SILENT=true
+[2020.06.11-03.21.33:648][365]LogSavePackage: Moving '../../../../../../Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Saved/leaf_walnut_s58C4A05F4507818895D70294A6DF5568.tmp' to '../../../../../../Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Content/Models/trees/leaf_walnut_s.uasset'
+[2020.06.11-03.21.33:885][366]AssetCheck: New page: Asset Save: multiple assets
+[2020.06.11-03.21.33:885][366]LogContentValidation: Display: Validating Texture2D /Game/Models/trees/leaf_walnut_n.leaf_walnut_n
+[2020.06.11-03.21.33:885][366]LogContentValidation: Display: Validating Texture2D /Game/Models/trees/leaf_walnut.leaf_walnut
+[2020.06.11-03.21.33:885][366]LogContentValidation: Display: Validating Texture2D /Game/Models/trees/leaf_tropical_t.leaf_tropical_t
+[2020.06.11-03.21.33:885][366]LogContentValidation: Display: Validating Texture2D /Game/Models/trees/leaf_tropical_s.leaf_tropical_s
+[2020.06.11-03.21.33:885][366]LogContentValidation: Display: Validating Texture2D /Game/Models/trees/leaf_tropical_n.leaf_tropical_n
+[2020.06.11-03.21.33:885][366]LogContentValidation: Display: Validating Texture2D /Game/Models/trees/leaf_tropical.leaf_tropical
+[2020.06.11-03.21.33:885][366]LogContentValidation: Display: Validating Texture2D /Game/Models/trees/bark12_s.bark12_s
+[2020.06.11-03.21.33:885][366]LogContentValidation: Display: Validating Texture2D /Game/Models/trees/bark12_n.bark12_n
+[2020.06.11-03.21.33:885][366]LogContentValidation: Display: Validating Texture2D /Game/Models/trees/bark12.bark12
+[2020.06.11-03.21.33:885][366]LogContentValidation: Display: Validating Texture2D /Game/Models/trees/bark03_s.bark03_s
+[2020.06.11-03.21.33:885][366]LogContentValidation: Display: Validating Texture2D /Game/Models/trees/bark03_n.bark03_n
+[2020.06.11-03.21.33:885][366]LogContentValidation: Display: Validating Texture2D /Game/Models/trees/leaf_walnut_t.leaf_walnut_t
+[2020.06.11-03.21.33:885][366]LogContentValidation: Display: Validating Texture2D /Game/Models/trees/leaf_walnut_s.leaf_walnut_s
+[2020.06.11-03.21.36:818][457]AssetReimport: Importing new asset /Game/Models/trees/leaf_walnut_n.
+[2020.06.11-03.21.36:818][457]AssetReimport: Importing new asset /Game/Models/trees/leaf_walnut.
+[2020.06.11-03.21.36:818][457]AssetReimport: Importing new asset /Game/Models/trees/leaf_tropical_t.
+[2020.06.11-03.21.36:818][457]AssetReimport: Importing new asset /Game/Models/trees/leaf_tropical_s.
+[2020.06.11-03.21.36:818][457]AssetReimport: Importing new asset /Game/Models/trees/leaf_tropical_n.
+[2020.06.11-03.21.36:818][457]AssetReimport: Importing new asset /Game/Models/trees/leaf_tropical.
+[2020.06.11-03.21.36:818][457]AssetReimport: Importing new asset /Game/Models/trees/bark12_s.
+[2020.06.11-03.21.36:818][457]AssetReimport: Importing new asset /Game/Models/trees/bark12_n.
+[2020.06.11-03.21.36:818][457]AssetReimport: Importing new asset /Game/Models/trees/bark12.
+[2020.06.11-03.21.36:818][457]AssetReimport: Importing new asset /Game/Models/trees/bark03_s.
+[2020.06.11-03.21.36:818][457]AssetReimport: Importing new asset /Game/Models/trees/bark03_n.
+[2020.06.11-03.21.36:818][457]AssetReimport: Importing new asset /Game/Models/trees/leaf_walnut_t.
+[2020.06.11-03.21.36:818][457]AssetReimport: Importing new asset /Game/Models/trees/leaf_walnut_s.
+[2020.06.11-03.22.16:225][916]AssetReimport: New page: Outstanding source content changes 3:22:16 p.m.
+[2020.06.11-03.22.16:226][916]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2020.06.11-03.22.17:101][916]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.874 s
+[2020.06.11-03.22.17:101][916]LogOutputDevice: Error: === Handled ensure: ===
+[2020.06.11-03.22.17:101][916]LogOutputDevice: Error: 
+[2020.06.11-03.22.17:101][916]LogOutputDevice: Error: Ensure condition failed: ExpectedWorkThisFrame <= 1.01f * TotalAmountOfWork - CompletedWork [File:D:/Build/++UE4+Licensee/Sync/Engine/Source/Runtime/Core/Private/Misc/SlowTask.cpp] [Line: 121]
+[2020.06.11-03.22.17:101][916]LogOutputDevice: Error: Work overflow in slow task. Please revise call-site to account for entire progress range.
+[2020.06.11-03.22.17:101][916]LogOutputDevice: Error: Stack: 
+[2020.06.11-03.22.17:101][916]LogOutputDevice: Error: [Callstack] 0x00007ffcf316e446 UE4Editor-Core.dll!UnknownFunction []
+[2020.06.11-03.22.17:101][916]LogOutputDevice: Error: [Callstack] 0x00007ffcf2c2785f UE4Editor-Core.dll!UnknownFunction []
+[2020.06.11-03.22.17:101][916]LogOutputDevice: Error: [Callstack] 0x00007ffceb6a9045 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.06.11-03.22.17:101][916]LogOutputDevice: Error: [Callstack] 0x00007ffceb6624b7 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.06.11-03.22.17:101][916]LogOutputDevice: Error: [Callstack] 0x00007ffceb6c30a1 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.06.11-03.22.17:101][916]LogOutputDevice: Error: [Callstack] 0x00007ffceb6105e9 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.06.11-03.22.17:101][916]LogOutputDevice: Error: [Callstack] 0x00007ffceb9e992e UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.06.11-03.22.17:101][916]LogOutputDevice: Error: [Callstack] 0x00007ffcec2c0056 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.06.11-03.22.17:101][916]LogOutputDevice: Error: [Callstack] 0x00007ff78cf37800 UE4Editor.exe!UnknownFunction []
+[2020.06.11-03.22.17:101][916]LogOutputDevice: Error: [Callstack] 0x00007ff78cf4ba7c UE4Editor.exe!UnknownFunction []
+[2020.06.11-03.22.17:101][916]LogOutputDevice: Error: [Callstack] 0x00007ff78cf4bb5a UE4Editor.exe!UnknownFunction []
+[2020.06.11-03.22.17:101][916]LogOutputDevice: Error: [Callstack] 0x00007ff78cf5e31d UE4Editor.exe!UnknownFunction []
+[2020.06.11-03.22.17:101][916]LogOutputDevice: Error: [Callstack] 0x00007ff78cf6145a UE4Editor.exe!UnknownFunction []
+[2020.06.11-03.22.17:101][916]LogOutputDevice: Error: [Callstack] 0x00007ffd54217bd4 KERNEL32.DLL!UnknownFunction []
+[2020.06.11-03.22.17:101][916]LogOutputDevice: Error: [Callstack] 0x00007ffd55f0ce51 ntdll.dll!UnknownFunction []
+[2020.06.11-03.22.17:101][916]LogOutputDevice: Error: 

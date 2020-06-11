@@ -32,22 +32,15 @@ Unreal engine 4 is a powerful tool that has plenty of functionality built in. If
 
    * [Fog](#fog)
 
-   * FX (TODO: Bloom)
+   * [Bloom](#bloom)
 
-11. Coding
-
-12. Events
-
+11. [Events](#events)
+12. [Coding](#code)
 13. Music and Sound
-
 14. Misc
-
 15. Demo
-
 16. [Resources](#help)
-
 17. [License](#license)
-
 18. [Collaboration](#collab)
 
 
@@ -300,6 +293,8 @@ One thing that will add that extra layer of depth is foliage, ie. trees, grass, 
 
 
 
+\* a good tool for creating tree foliage is with [TreeIt](https://www.evolved-software.com/treeit/treeit) (to use in Unreal, use this tutorial (https://youtu.be/SaW88u6u6Ks))
+
 <a name="mat"></a>
 
 ## 5. Materials
@@ -466,7 +461,28 @@ Particles add that extra layer of emersion and can change a boring static scene 
 
 Fog can be added in duck scenes or to add a cloud of mystery. There are two kinds of fog with Unreal, **Sky Atmosphere** and **Atmospheric Fog**. After testing, I will be using Atmospheric Fog
 
-1. 
+1. Drag an Atmospheric Fog into the scene 
+2. 
+
+
+
+<a name="bloom"></a>
+
+**Bloom**
+
+1. By default, bloom should be in the scene, but if it isn't go to Show -> Post Processing -> Bloom
+
+   ![fx](images/fx.jpg)
+
+2. There are also other FX that you can add, so change them to your liking
+
+
+
+<a name="Events"></a>
+
+## 11. Events
+
+Events are important to drive a game and to progress. Events in Unreal are 
 
 
 
