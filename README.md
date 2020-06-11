@@ -37,7 +37,7 @@ Unreal engine 4 is a powerful tool that has plenty of functionality built in. If
 11. [Events](#events)
 12. [Coding](#code)
 13. Music and Sound
-14. Misc
+14. [Misc](#misc)
 15. Demo
 16. [Resources](#help)
 17. [License](#license)
@@ -478,11 +478,23 @@ Fog can be added in duck scenes or to add a cloud of mystery. There are two kind
 
 
 
-<a name="Events"></a>
+<a name="events"></a>
 
 ## 11. Events
 
 Events are important to drive a game and to progress. Events in Unreal are 
+
+
+
+<a name="misc"></a>
+
+## 14. Misc
+
+**Moving assets**
+
+In projects, you might want to move an asset from one project to the next. To do this in Unreal, right click on the asset and click Asset Actions -> **Migrate**...
+
+Press Ok, then find the content folder of the project to move to and 
 
 
 
