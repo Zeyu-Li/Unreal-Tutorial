@@ -31,14 +31,13 @@ Unreal engine 4 is a powerful tool that has plenty of functionality built in. If
 10. [Particles](#particle)
 
    * [Fog](#fog)
-
    * [Bloom](#bloom)
 
-11. [Events](#events)
-12. [Coding](#code)
-13. Music and Sound
+11. [Coding](#code) 
+12. [Events](#events)
+13. [Music and Sound](#music)
 14. [Misc](#misc)
-15. Demo
+15. [Demo](#demo)
 16. [Resources](#help)
 17. [License](#license)
 18. [Collaboration](#collab)
@@ -426,7 +425,7 @@ Animations are important for 3D games if you doing want a static picture. To cre
 
 4. You will see a timeline, similar to many other 3D programs
 
-5. Right click in the layer part (left of the timeline) and select **Actor to Sequence** and find your actor (object)
+5. Right click in the layer part (left of the timeline) and select **Actor to Sequence** and find your actor (object, not the cinematics)
 
 6. ![addAnim](images/addAnim.jpg)
 
@@ -462,7 +461,8 @@ Particles add that extra layer of emersion and can change a boring static scene 
 Fog can be added in duck scenes or to add a cloud of mystery. There are two kinds of fog with Unreal, **Sky Atmosphere** and **Atmospheric Fog**. After testing, I will be using Atmospheric Fog
 
 1. Drag an Atmospheric Fog into the scene 
-2. 
+2. Changing the z displacement changes the startoff level
+3. There are options for fog density, height falloff (fog easing so there is no hard barrier between fog and no fog), and much more
 
 
 
@@ -478,11 +478,56 @@ Fog can be added in duck scenes or to add a cloud of mystery. There are two kind
 
 
 
+<a name="code"></a>
+
+## 11. Coding
+
+Coding in Unreal is different from most languages. The major difference is that this is a visual programming language. It uses nodes with inputs on the left side and outputs on the write side. Of course you can code in pure C++, but we will explore the Blueprints, which is Unreal's intended way of programming in logic. 
+
+To start, 
+
+1. Click Blueprints -> New Empty Blueprint Classes
+2. You will be presented with a buffet of options. I will be making a bunch of objects that you need to be in, therefore, I will chose the **Actor Component**
+3. You will now see the node editor
+4. Another way to make a Blueprint is to go to the object and select **Blueprint/Add Script** button in the details panel
+5. Yet another way to do this with a group is with the group selected, Blueprints -> Covert Section to Blueprint Classes
+6. If you want to access the **Level Blueprints**, go to Blueprints -> Open Level Blueprints
+7. You can right click in the node editor to search nodes to add
+8. I cannot tell you everything about nodes because there are way too many to go through. The best advice I can give you is to use Unreal's documentation or watch some tutorials online. Good luck
+9. Unreal's visual coding is actually just a visual representation of code (as functions) and at the end of the day, must be compiled to binary, therefore, after you are complete, compile
+
+
+
 <a name="events"></a>
 
-## 11. Events
+## 12. Events
 
-Events are important to drive a game and to progress. Events in Unreal are 
+Events are important to drive a game and to progress. Events in Unreal should be mainly handled by **Blueprints**. In this tutorial, I will go through the process of creating a bunch of areas I need to get to and move the area after you reach that location. 
+
+1. Open the Level Blueprint
+2. 
+
+
+
+<a name="music"></a>
+
+## 13. Music and Sound
+
+**Music**
+
+Music can be add just by dragging into the scene. To loop the music, 
+
+1. right click on the music in the **Content Browser**
+2. Click Create Cue
+3. Rename and open cue
+4. Sandwich a Looping node between wave player and output
+
+**Sounds**
+
+Sounds can add a layer of immersion to the game. In this tutorial, I will add some walking sounds
+
+1. Locate some walking sounds online or just use the ones I have
+2. 
 
 
 
@@ -494,13 +539,41 @@ Events are important to drive a game and to progress. Events in Unreal are
 
 In projects, you might want to move an asset from one project to the next. To do this in Unreal, right click on the asset and click Asset Actions -> **Migrate**...
 
-Press Ok, then find the content folder of the project to move to and 
+Press Ok, then find the content folder of the project to move to and confirm
+
+**UI**
+
+Most games will probably require a UI (user interface), so I will go through one here on a pause menu
+
+1. 
+
+
+
+<a name="demo"></a>
+
+## 15. Demo
+
+Thank you for viewing this tutorial and I hope you enjoyed this tutorial and I wish you luck in creating your own games. While I went through just the basics of Unreal, but I hope I have sparked your motivation to create projects in Unreal. 
+
+Thank you
+
+ \- Andrew
+
+P.S. If you want to provide feedback or have questions, start a issue in the GitHub repo 
+
+This is a demo of the project I've been able to complete with ideas from this tutorial:
+
+
+
+
+
+\* note to download this game, go to the [release](https://github.com/Zeyu-Li/Unreal-Template/releases) part of the GitHub repo hosting this project
 
 
 
 <a name="help"></a>
 
-## 1. Resources
+## 16. Resources
 
 Official Documentation: https://docs.unrealengine.com/en-US/index.html
 
@@ -508,7 +581,7 @@ Official Documentation: https://docs.unrealengine.com/en-US/index.html
 
 <a name="license"></a>
 
-## 1. License
+## 17. License
 
 This tutorial and my Unreal template game is under MIT License
 
@@ -516,7 +589,7 @@ This tutorial and my Unreal template game is under MIT License
 
 <a name="collab"></a>
 
-## 1. Collaboration
+## 18. Collaboration
 
 Collaborating is made easy in Unreal with Unreal's own version control system
 
