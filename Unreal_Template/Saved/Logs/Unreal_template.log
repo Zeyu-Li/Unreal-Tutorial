@@ -1444,3 +1444,11 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.06.12-23.39.22:948][500]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
 [2020.06.12-23.39.22:964][500]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
 [2020.06.12-23.41.39:416][521]LogEditorViewport: Clicking on Actor (LMB): LevelSequenceActor (spinning)
+[2020.06.12-23.42.25:710][937]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2020.06.12-23.42.26:291][963]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2020.06.12-23.42.26:590][975]Cmd: TRANSACTION UNDO
+[2020.06.12-23.42.26:590][975]LogEditorTransaction: Undo Clicking on Actors
+[2020.06.12-23.42.26:772][978]Cmd: TRANSACTION UNDO
+[2020.06.12-23.42.26:772][978]LogEditorTransaction: Undo Clicking on Actors
+[2020.06.12-23.42.26:974][982]Cmd: TRANSACTION UNDO
+[2020.06.12-23.42.26:974][982]LogEditorTransaction: Undo Clicking on Actors
