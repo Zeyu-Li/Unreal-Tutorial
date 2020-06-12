@@ -1452,3 +1452,739 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.06.12-23.42.26:772][978]LogEditorTransaction: Undo Clicking on Actors
 [2020.06.12-23.42.26:974][982]Cmd: TRANSACTION UNDO
 [2020.06.12-23.42.26:974][982]LogEditorTransaction: Undo Clicking on Actors
+[2020.06.12-23.43.24:594][814]Cmd: TRANSACTION UNDO
+[2020.06.12-23.43.24:594][814]LogEditorTransaction: Undo Clicking on Actors
+[2020.06.12-23.44.40:907][993]LogActorFactory: Actor Factory created ring
+[2020.06.12-23.44.46:901][282]LogActorFactory: Actor Factory created ring
+[2020.06.12-23.45.02:778][ 25]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ring)
+[2020.06.12-23.45.06:248][188]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (monument2)
+[2020.06.12-23.45.07:347][236]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ring)
+[2020.06.12-23.45.28:844][987]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2020.06.12-23.45.32:662][165]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.12-23.45.32:697][165]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.12-23.45.32:697][165]PIE: New page: PIE session: Main (Jun. 12, 2020, 11:45:32 a.m.)
+[2020.06.12-23.45.32:697][165]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2020.06.12-23.45.32:738][165]LogPlayLevel: PIE: StaticDuplicateObject took: (0.041168s)
+[2020.06.12-23.45.32:740][165]LogAIModule: Creating AISystem for world Main
+[2020.06.12-23.45.32:740][165]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002D222B66800), frame # 99165
+[2020.06.12-23.45.32:740][165]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002D2196BD1C0), frame # 99165
+[2020.06.12-23.45.32:740][165]LogPlayLevel: PIE: World Init took: (0.001631s)
+[2020.06.12-23.45.32:740][165]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.043023s)
+[2020.06.12-23.45.32:764][165]LogUObjectHash: Compacting FUObjectHashTables data took   3.07ms
+[2020.06.12-23.45.32:781][165]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.12-23.45.32:781][165]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.12-23.45.32:781][165]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.12-23.45.32:782][165]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.12-23.45.32:782][165]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.12-23.45.32:782][165]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.12-23.45.32:782][165]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.12-23.45.32:782][165]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.12-23.45.32:783][165]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.12-23.45.32:783][165]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.12-23.45.32:791][165]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.12-23.45.32:791][165]LogAudioMixer: Display: 1: FrontRight
+[2020.06.12-23.45.32:824][165]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.06.12-23.45.32:824][165]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.06.12-23.45.32:824][165]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.06.12-23.45.32:824][165]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.06.12-23.45.32:825][165]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.06.12-23.45.32:843][165]LogInit: FAudioDevice initialized.
+[2020.06.12-23.45.32:853][165]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2020.06.12-23.45.32:864][165]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2020.06.12-17.45.32
+[2020.06.12-23.45.32:864][165]LogWorld: Bringing up level for play took: 0.009618
+[2020.06.12-23.45.32:864][165]LogOnline: OSS: Creating online subsystem instance for: :Context_21
+[2020.06.12-23.45.32:868][165]PIE: Server logged in
+[2020.06.12-23.45.32:869][165]PIE: Play in editor total start time 0.176 seconds.
+[2020.06.12-23.45.37:144][317]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.12-23.45.37:148][317]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.06.12-23.45.37:178][317]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.06.12-23.45.37:180][317]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.12-23.45.37:180][317]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2020.06.12-23.45.37:180][317]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.12-23.45.37:180][317]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2020.06.12-23.45.37:184][317]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.12-23.45.37:216][317]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.12-23.45.37:220][317]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.12-23.45.37:243][317]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.12-23.45.37:266][317]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.12-23.45.37:272][317]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002D2196BD1C0), frame # 99317
+[2020.06.12-23.45.37:272][317]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002D222B66800), frame # 99317
+[2020.06.12-23.45.37:275][317]LogUObjectHash: Compacting FUObjectHashTables data took   2.38ms
+[2020.06.12-23.45.37:333][318]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2020.06.12-23.45.45:923][656]Cmd: TRANSACTION UNDO
+[2020.06.12-23.45.45:923][656]LogEditorTransaction: Undo Edit Level Sequence
+[2020.06.12-23.47.29:638][156]EditorErrors: New page: Actor attachment
+[2020.06.12-23.47.33:494][325]Cmd: TRANSACTION UNDO
+[2020.06.12-23.47.33:494][325]LogEditorTransaction: Undo Move Actors
+[2020.06.12-23.47.34:662][368]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2020.06.12-23.47.35:789][414]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2020.06.12-23.47.36:930][462]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2020.06.12-23.48.17:480][274]EditorErrors: New page: Actor attachment
+[2020.06.12-23.49.31:474][485]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main" FILE="../../../../../../Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Content/Maps/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.06.12-23.49.31:501][485]LogUObjectHash: Compacting FUObjectHashTables data took   2.68ms
+[2020.06.12-23.49.31:902][485]LogSavePackage: Moving '../../../../../../Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Saved/Main5FF2DEDE47849860EAB2CF917A97C902.tmp' to '../../../../../../Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Content/Maps/Main.umap'
+[2020.06.12-23.49.31:978][485]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main_BuiltData" FILE="../../../../../../Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Content/Maps/Main_BuiltData.uasset" SILENT=true
+[2020.06.12-23.49.32:174][485]LogSavePackage: Moving '../../../../../../Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Saved/Main_BuiltData0047D29C48C2023D08D3EAA88E7D5B04.tmp' to '../../../../../../Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Content/Maps/Main_BuiltData.uasset'
+[2020.06.12-23.49.32:201][485]AssetCheck: New page: Asset Save: multiple assets
+[2020.06.12-23.49.32:201][485]LogContentValidation: Display: Validating World /Game/Maps/Main.Main
+[2020.06.12-23.49.32:201][485]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Main_BuiltData.Main_BuiltData
+[2020.06.12-23.49.32:608][509]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.12-23.49.32:642][509]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.12-23.49.32:642][509]PIE: New page: PIE session: Main (Jun. 12, 2020, 11:49:32 a.m.)
+[2020.06.12-23.49.32:642][509]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2020.06.12-23.49.32:679][509]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036791s)
+[2020.06.12-23.49.32:680][509]LogAIModule: Creating AISystem for world Main
+[2020.06.12-23.49.32:680][509]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002D262F4F800), frame # 108509
+[2020.06.12-23.49.32:681][509]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002D216BAEAC0), frame # 108509
+[2020.06.12-23.49.32:681][509]LogPlayLevel: PIE: World Init took: (0.001562s)
+[2020.06.12-23.49.32:681][509]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.038573s)
+[2020.06.12-23.49.32:705][509]LogUObjectHash: Compacting FUObjectHashTables data took   2.68ms
+[2020.06.12-23.49.32:707][509]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.12-23.49.32:707][509]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.12-23.49.32:707][509]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.12-23.49.32:707][509]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.12-23.49.32:707][509]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.12-23.49.32:707][509]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.12-23.49.32:707][509]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.12-23.49.32:707][509]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.12-23.49.32:707][509]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.12-23.49.32:707][509]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.12-23.49.32:714][509]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.12-23.49.32:714][509]LogAudioMixer: Display: 1: FrontRight
+[2020.06.12-23.49.32:747][509]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.06.12-23.49.32:747][509]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.06.12-23.49.32:747][509]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.06.12-23.49.32:747][509]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.06.12-23.49.32:748][509]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.06.12-23.49.32:766][509]LogInit: FAudioDevice initialized.
+[2020.06.12-23.49.32:774][509]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2020.06.12-23.49.32:786][509]PIE: Warning: AttachTo: '/Game/Maps/UEDPIE_0_Main.Main:PersistentLevel.Ring.DefaultSceneRoot' is not static , cannot attach '/Game/Maps/UEDPIE_0_Main.Main:PersistentLevel.ring_218.StaticMeshComponent0' which is static to it. Aborting.
+[2020.06.12-23.49.32:786][509]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2020.06.12-17.49.32
+[2020.06.12-23.49.32:787][509]LogWorld: Bringing up level for play took: 0.011475
+[2020.06.12-23.49.32:787][509]LogOnline: OSS: Creating online subsystem instance for: :Context_22
+[2020.06.12-23.49.32:791][509]PIE: Server logged in
+[2020.06.12-23.49.32:792][509]PIE: Play in editor total start time 0.155 seconds.
+[2020.06.12-23.49.57:762][637]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.12-23.49.57:767][637]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.06.12-23.49.57:788][637]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.06.12-23.49.57:790][637]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.12-23.49.57:790][637]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2020.06.12-23.49.57:790][637]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.12-23.49.57:791][637]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2020.06.12-23.49.57:794][637]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.12-23.49.57:821][637]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.12-23.49.57:826][637]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.12-23.49.57:848][637]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.12-23.49.57:848][637]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.12-23.49.57:873][637]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002D216BAEAC0), frame # 109637
+[2020.06.12-23.49.57:873][637]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002D262F4F800), frame # 109637
+[2020.06.12-23.49.57:876][637]LogUObjectHash: Compacting FUObjectHashTables data took   2.60ms
+[2020.06.12-23.49.58:038][638]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2020.06.12-23.50.02:209][823]LogSlate: Window 'Message Log' being destroyed
+[2020.06.12-23.50.02:240][823]LogSlate: Window 'Message Log' being destroyed
+[2020.06.12-23.51.05:472][660]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main" FILE="../../../../../../Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Content/Maps/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.06.12-23.51.05:506][660]LogUObjectHash: Compacting FUObjectHashTables data took   2.88ms
+[2020.06.12-23.51.05:887][660]LogSavePackage: Moving '../../../../../../Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Saved/Main0F6588E3402CAA60D68BFEBAB301E654.tmp' to '../../../../../../Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Content/Maps/Main.umap'
+[2020.06.12-23.51.05:948][660]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main_BuiltData" FILE="../../../../../../Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Content/Maps/Main_BuiltData.uasset" SILENT=true
+[2020.06.12-23.51.06:058][660]LogSavePackage: Moving '../../../../../../Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Saved/Main_BuiltData1C5EEFF746F79CC1432AAE8B793EE3AB.tmp' to '../../../../../../Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Content/Maps/Main_BuiltData.uasset'
+[2020.06.12-23.51.06:079][660]AssetCheck: New page: Asset Save: multiple assets
+[2020.06.12-23.51.06:079][660]LogContentValidation: Display: Validating World /Game/Maps/Main.Main
+[2020.06.12-23.51.06:079][660]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Main_BuiltData.Main_BuiltData
+[2020.06.12-23.51.06:963][680]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.12-23.51.06:999][680]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.12-23.51.07:000][680]PIE: New page: PIE session: Main (Jun. 12, 2020, 11:51:06 a.m.)
+[2020.06.12-23.51.07:000][680]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2020.06.12-23.51.07:040][680]LogPlayLevel: PIE: StaticDuplicateObject took: (0.039689s)
+[2020.06.12-23.51.07:041][680]LogAIModule: Creating AISystem for world Main
+[2020.06.12-23.51.07:041][680]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002D2249AFC00), frame # 112680
+[2020.06.12-23.51.07:041][680]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002D20FC8DF80), frame # 112680
+[2020.06.12-23.51.07:041][680]LogPlayLevel: PIE: World Init took: (0.001572s)
+[2020.06.12-23.51.07:042][680]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.041490s)
+[2020.06.12-23.51.07:065][680]LogUObjectHash: Compacting FUObjectHashTables data took   2.56ms
+[2020.06.12-23.51.07:067][680]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.12-23.51.07:067][680]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.12-23.51.07:067][680]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.12-23.51.07:067][680]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.12-23.51.07:067][680]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.12-23.51.07:067][680]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.12-23.51.07:067][680]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.12-23.51.07:067][680]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.12-23.51.07:069][680]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.12-23.51.07:069][680]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.12-23.51.07:077][680]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.12-23.51.07:077][680]LogAudioMixer: Display: 1: FrontRight
+[2020.06.12-23.51.07:109][680]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.06.12-23.51.07:110][680]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.06.12-23.51.07:110][680]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.06.12-23.51.07:110][680]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.06.12-23.51.07:110][680]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.06.12-23.51.07:129][680]LogInit: FAudioDevice initialized.
+[2020.06.12-23.51.07:136][680]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2020.06.12-23.51.07:145][680]PIE: Warning: AttachTo: '/Game/Maps/UEDPIE_0_Main.Main:PersistentLevel.Ring.DefaultSceneRoot' is not static , cannot attach '/Game/Maps/UEDPIE_0_Main.Main:PersistentLevel.ring_218.StaticMeshComponent0' which is static to it. Aborting.
+[2020.06.12-23.51.07:146][680]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2020.06.12-17.51.07
+[2020.06.12-23.51.07:146][680]LogWorld: Bringing up level for play took: 0.009145
+[2020.06.12-23.51.07:146][680]LogOnline: OSS: Creating online subsystem instance for: :Context_23
+[2020.06.12-23.51.07:150][680]PIE: Server logged in
+[2020.06.12-23.51.07:151][680]PIE: Play in editor total start time 0.156 seconds.
+[2020.06.12-23.51.12:518][885]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.12-23.51.12:528][885]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.06.12-23.51.12:548][885]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.06.12-23.51.12:550][885]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.12-23.51.12:551][885]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2020.06.12-23.51.12:551][885]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.12-23.51.12:551][885]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2020.06.12-23.51.12:554][885]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.12-23.51.12:586][885]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.12-23.51.12:591][885]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.12-23.51.12:613][885]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.12-23.51.12:614][885]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.12-23.51.12:638][885]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002D20FC8DF80), frame # 112885
+[2020.06.12-23.51.12:638][885]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002D2249AFC00), frame # 112885
+[2020.06.12-23.51.12:641][885]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2020.06.12-23.51.12:799][886]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2020.06.12-23.51.14:165][939]LogSlate: Window 'Message Log' being destroyed
+[2020.06.12-23.51.14:202][939]LogSlate: Window 'Message Log' being destroyed
+[2020.06.12-23.51.17:872][129]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (ring)
+[2020.06.12-23.51.43:871][669]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Anim/spinning" FILE="../../../../../../Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Content/Anim/spinning.uasset" SILENT=true
+[2020.06.12-23.51.43:911][669]LogSavePackage: Moving '../../../../../../Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Saved/spinningCC13314842FB8D21B5595AA1D853E217.tmp' to '../../../../../../Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Content/Anim/spinning.uasset'
+[2020.06.12-23.51.43:930][669]AssetCheck: New page: Asset Save: spinning
+[2020.06.12-23.51.43:930][669]LogContentValidation: Display: Validating LevelSequence /Game/Anim/spinning.spinning
+[2020.06.12-23.51.44:536][704]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.12-23.51.44:574][704]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.12-23.51.44:574][704]PIE: New page: PIE session: Main (Jun. 12, 2020, 11:51:44 a.m.)
+[2020.06.12-23.51.44:574][704]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2020.06.12-23.51.44:610][704]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035908s)
+[2020.06.12-23.51.44:611][704]LogAIModule: Creating AISystem for world Main
+[2020.06.12-23.51.44:611][704]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002D1C7817E00), frame # 114704
+[2020.06.12-23.51.44:611][704]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002D1D37C8CC0), frame # 114704
+[2020.06.12-23.51.44:612][704]LogPlayLevel: PIE: World Init took: (0.001439s)
+[2020.06.12-23.51.44:612][704]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.037511s)
+[2020.06.12-23.51.44:635][704]LogUObjectHash: Compacting FUObjectHashTables data took   2.88ms
+[2020.06.12-23.51.44:642][704]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.12-23.51.44:642][704]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.12-23.51.44:642][704]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.12-23.51.44:642][704]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.12-23.51.44:642][704]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.12-23.51.44:642][704]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.12-23.51.44:642][704]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.12-23.51.44:642][704]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.12-23.51.44:642][704]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.12-23.51.44:643][704]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.12-23.51.44:649][704]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.12-23.51.44:649][704]LogAudioMixer: Display: 1: FrontRight
+[2020.06.12-23.51.44:680][704]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.06.12-23.51.44:680][704]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.06.12-23.51.44:680][704]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.06.12-23.51.44:680][704]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.06.12-23.51.44:681][704]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.06.12-23.51.44:699][704]LogInit: FAudioDevice initialized.
+[2020.06.12-23.51.44:712][704]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2020.06.12-23.51.44:721][704]PIE: Warning: AttachTo: '/Game/Maps/UEDPIE_0_Main.Main:PersistentLevel.Ring.DefaultSceneRoot' is not static , cannot attach '/Game/Maps/UEDPIE_0_Main.Main:PersistentLevel.ring_218.StaticMeshComponent0' which is static to it. Aborting.
+[2020.06.12-23.51.44:722][704]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2020.06.12-17.51.44
+[2020.06.12-23.51.44:722][704]LogWorld: Bringing up level for play took: 0.009056
+[2020.06.12-23.51.44:722][704]LogOnline: OSS: Creating online subsystem instance for: :Context_24
+[2020.06.12-23.51.44:725][704]PIE: Server logged in
+[2020.06.12-23.51.44:727][704]PIE: Play in editor total start time 0.16 seconds.
+[2020.06.12-23.52.11:087][743]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.12-23.52.11:118][743]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.06.12-23.52.11:138][743]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.06.12-23.52.11:141][743]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.12-23.52.11:141][743]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2020.06.12-23.52.11:142][743]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.12-23.52.11:142][743]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2020.06.12-23.52.11:145][743]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.12-23.52.11:172][743]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.12-23.52.11:177][743]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.12-23.52.11:200][743]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.12-23.52.11:200][743]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.12-23.52.11:224][743]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002D1D37C8CC0), frame # 115743
+[2020.06.12-23.52.11:224][743]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002D1C7817E00), frame # 115743
+[2020.06.12-23.52.11:227][743]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms
+[2020.06.12-23.52.11:363][744]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2020.06.12-23.52.13:214][811]LogSlate: Window 'Message Log' being destroyed
+[2020.06.12-23.52.13:254][811]LogSlate: Window 'Message Log' being destroyed
+[2020.06.12-23.52.29:470][428]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.12-23.52.29:502][428]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.12-23.52.29:503][428]PIE: New page: PIE session: Main (Jun. 12, 2020, 11:52:29 a.m.)
+[2020.06.12-23.52.29:503][428]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2020.06.12-23.52.29:540][428]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037958s)
+[2020.06.12-23.52.29:541][428]LogAIModule: Creating AISystem for world Main
+[2020.06.12-23.52.29:541][428]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002D222B66400), frame # 116428
+[2020.06.12-23.52.29:541][428]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002D20A2F0900), frame # 116428
+[2020.06.12-23.52.29:541][428]LogPlayLevel: PIE: World Init took: (0.001381s)
+[2020.06.12-23.52.29:541][428]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.039523s)
+[2020.06.12-23.52.29:566][428]LogUObjectHash: Compacting FUObjectHashTables data took   2.74ms
+[2020.06.12-23.52.29:570][428]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.12-23.52.29:570][428]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.12-23.52.29:570][428]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.12-23.52.29:570][428]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.12-23.52.29:571][428]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.12-23.52.29:571][428]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.12-23.52.29:571][428]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.12-23.52.29:571][428]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.12-23.52.29:571][428]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.12-23.52.29:571][428]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.12-23.52.29:577][428]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.12-23.52.29:577][428]LogAudioMixer: Display: 1: FrontRight
+[2020.06.12-23.52.29:607][428]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.06.12-23.52.29:608][428]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.06.12-23.52.29:608][428]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.06.12-23.52.29:608][428]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.06.12-23.52.29:610][428]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.06.12-23.52.29:627][428]LogInit: FAudioDevice initialized.
+[2020.06.12-23.52.29:638][428]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2020.06.12-23.52.29:648][428]PIE: Warning: AttachTo: '/Game/Maps/UEDPIE_0_Main.Main:PersistentLevel.Ring.DefaultSceneRoot' is not static , cannot attach '/Game/Maps/UEDPIE_0_Main.Main:PersistentLevel.ring_218.StaticMeshComponent0' which is static to it. Aborting.
+[2020.06.12-23.52.29:648][428]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2020.06.12-17.52.29
+[2020.06.12-23.52.29:648][428]LogWorld: Bringing up level for play took: 0.009101
+[2020.06.12-23.52.29:648][428]LogOnline: OSS: Creating online subsystem instance for: :Context_25
+[2020.06.12-23.52.29:652][428]PIE: Server logged in
+[2020.06.12-23.52.29:653][428]PIE: Play in editor total start time 0.152 seconds.
+[2020.06.12-23.52.59:856][860]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.12-23.52.59:877][860]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.06.12-23.52.59:897][860]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.06.12-23.52.59:899][860]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.12-23.52.59:899][860]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2020.06.12-23.52.59:899][860]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.12-23.52.59:899][860]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2020.06.12-23.52.59:903][860]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.12-23.52.59:911][860]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.12-23.52.59:916][860]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.12-23.52.59:938][860]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.12-23.52.59:938][860]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.12-23.52.59:962][860]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002D20A2F0900), frame # 117860
+[2020.06.12-23.52.59:962][860]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002D222B66400), frame # 117860
+[2020.06.12-23.52.59:965][860]LogUObjectHash: Compacting FUObjectHashTables data took   2.50ms
+[2020.06.12-23.53.00:097][861]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2020.06.12-23.53.01:570][936]LogSlate: Window 'Message Log' being destroyed
+[2020.06.12-23.53.01:577][936]LogSlate: Window 'Message Log' being destroyed
+[2020.06.12-23.53.02:090][964]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Anim/spinning" FILE="../../../../../../Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Content/Anim/spinning.uasset" SILENT=true
+[2020.06.12-23.53.02:115][964]LogSavePackage: Moving '../../../../../../Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Saved/spinning9FF1786E467504FA12DB598F4C597276.tmp' to '../../../../../../Users/zeyul/Documents/GitHub/Unreal-Template/Unreal_Template/Content/Anim/spinning.uasset'
+[2020.06.12-23.53.02:131][964]AssetCheck: New page: Asset Save: spinning
+[2020.06.12-23.53.02:131][964]LogContentValidation: Display: Validating LevelSequence /Game/Anim/spinning.spinning
+[2020.06.12-23.53.07:551][199]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2020.06.12-23.53.07:740][199]LogSlate: Window 'Unreal_Template - Unreal Editor' being destroyed
+[2020.06.12-23.53.07:743][199]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.06.12-23.53.08:176][200]Cmd: QUIT_EDITOR
+[2020.06.12-23.53.08:177][200]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2020.06.12-23.53.08:202][200]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2020.06.12-23.53.08:205][200]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.12-23.53.08:425][200]LogExit: Preparing to exit.
+[2020.06.12-23.53.09:366][200]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2020.06.12-23.53.09:369][200]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2020.06.12-23.53.09:371][200]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2020.06.12-23.53.09:373][200]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2020.06.12-23.53.09:444][200]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2020.06.12-23.53.09:485][200]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2020.06.12-23.53.09:494][200]LogExit: Editor shut down
+[2020.06.12-23.53.09:496][200]LogExit: Transaction tracking system shut down
+[2020.06.12-23.53.09:874][200]LogAISub: UAISubsystem::~UAISubsystem AISubsystem (000002D1AFB104C0), frame # 118200
+[2020.06.12-23.53.09:874][200]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002D1B25DD080), frame # 118200
+[2020.06.12-23.53.09:877][200]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002D1B2631E00), frame # 118200
+[2020.06.12-23.53.10:020][200]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002D1D6ED42C0), frame # 118200
+[2020.06.12-23.53.10:020][200]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002D1DC5CE600), frame # 118200
+[2020.06.12-23.53.10:207][200]LogExit: Object subsystem successfully closed.
+[2020.06.12-23.53.10:296][200]LogShaderCompilers: Display: Shaders left to compile 0
+[2020.06.12-23.53.10:482][200]LogModuleManager: Shutting down and abandoning module SequencerWidgets (798)
+[2020.06.12-23.53.10:482][200]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (796)
+[2020.06.12-23.53.10:482][200]LogModuleManager: Shutting down and abandoning module Voice (794)
+[2020.06.12-23.53.10:482][200]LogModuleManager: Shutting down and abandoning module BlueprintGraph (792)
+[2020.06.12-23.53.10:483][200]LogModuleManager: Shutting down and abandoning module StatsViewer (790)
+[2020.06.12-23.53.10:485][200]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (788)
+[2020.06.12-23.53.10:485][200]LogModuleManager: Shutting down and abandoning module SceneOutliner (786)
+[2020.06.12-23.53.10:485][200]LogModuleManager: Shutting down and abandoning module AddContentDialog (784)
+[2020.06.12-23.53.10:501][200]LogModuleManager: Shutting down and abandoning module WidgetCarousel (783)
+[2020.06.12-23.53.10:501][200]LogModuleManager: Shutting down and abandoning module EditorWidgets (780)
+[2020.06.12-23.53.10:501][200]LogModuleManager: Shutting down and abandoning module CollectionManager (778)
+[2020.06.12-23.53.10:502][200]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (776)
+[2020.06.12-23.53.10:502][200]LogModuleManager: Shutting down and abandoning module FoliageEdit (774)
+[2020.06.12-23.53.10:503][200]LogModuleManager: Shutting down and abandoning module LandscapeEditor (772)
+[2020.06.12-23.53.10:507][200]LogModuleManager: Shutting down and abandoning module MeshPaintMode (770)
+[2020.06.12-23.53.10:507][200]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (768)
+[2020.06.12-23.53.10:507][200]LogModuleManager: Shutting down and abandoning module ActorPickerMode (766)
+[2020.06.12-23.53.10:507][200]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (764)
+[2020.06.12-23.53.10:509][200]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (762)
+[2020.06.12-23.53.10:509][200]LogModuleManager: Shutting down and abandoning module AutomationWorker (760)
+[2020.06.12-23.53.10:509][200]LogModuleManager: Shutting down and abandoning module SteamVREditor (758)
+[2020.06.12-23.53.10:510][200]LogModuleManager: Shutting down and abandoning module OculusMR (756)
+[2020.06.12-23.53.10:510][200]LogModuleManager: Shutting down and abandoning module GooglePADEditor (754)
+[2020.06.12-23.53.10:510][200]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (752)
+[2020.06.12-23.53.10:510][200]LogModuleManager: Shutting down and abandoning module TemplateSequenceEditor (750)
+[2020.06.12-23.53.10:511][200]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (748)
+[2020.06.12-23.53.10:511][200]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (746)
+[2020.06.12-23.53.10:511][200]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (744)
+[2020.06.12-23.53.10:512][200]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (742)
+[2020.06.12-23.53.10:512][200]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (740)
+[2020.06.12-23.53.10:512][200]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (738)
+[2020.06.12-23.53.10:514][200]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (736)
+[2020.06.12-23.53.10:514][200]LogModuleManager: Shutting down and abandoning module WebMMedia (734)
+[2020.06.12-23.53.10:514][200]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (732)
+[2020.06.12-23.53.10:517][200]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (730)
+[2020.06.12-23.53.10:518][200]LogModuleManager: Shutting down and abandoning module SequenceRecorder (729)
+[2020.06.12-23.53.10:518][200]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (726)
+[2020.06.12-23.53.10:519][200]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (724)
+[2020.06.12-23.53.10:519][200]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (722)
+[2020.06.12-23.53.10:519][200]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (720)
+[2020.06.12-23.53.10:519][200]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (718)
+[2020.06.12-23.53.10:519][200]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (716)
+[2020.06.12-23.53.10:519][200]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (714)
+[2020.06.12-23.53.10:519][200]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (712)
+[2020.06.12-23.53.10:520][200]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (710)
+[2020.06.12-23.53.10:520][200]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (708)
+[2020.06.12-23.53.10:520][200]LogModuleManager: Shutting down and abandoning module PlanarCut (706)
+[2020.06.12-23.53.10:521][200]LogModuleManager: Shutting down and abandoning module CharacterAI (704)
+[2020.06.12-23.53.10:521][200]LogModuleManager: Shutting down and abandoning module TextureAlignMode (702)
+[2020.06.12-23.53.10:521][200]LogModuleManager: Shutting down and abandoning module BspMode (700)
+[2020.06.12-23.53.10:523][200]LogModuleManager: Shutting down and abandoning module PlacementMode (699)
+[2020.06.12-23.53.10:523][200]LogModuleManager: Shutting down and abandoning module GeometryMode (696)
+[2020.06.12-23.53.10:523][200]LogModuleManager: Shutting down and abandoning module CameraShakePreviewer (694)
+[2020.06.12-23.53.10:523][200]LogModuleManager: Shutting down and abandoning module SmartSnapping (692)
+[2020.06.12-23.53.10:524][200]LogModuleManager: Shutting down and abandoning module SessionServices (690)
+[2020.06.12-23.53.10:524][200]LogModuleManager: Shutting down and abandoning module MeshPaint (688)
+[2020.06.12-23.53.10:526][200]LogModuleManager: Shutting down and abandoning module ViewportSnapping (686)
+[2020.06.12-23.53.10:526][200]LogModuleManager: Shutting down and abandoning module ViewportInteraction (684)
+[2020.06.12-23.53.10:526][200]LogModuleManager: Shutting down and abandoning module ClothPainter (682)
+[2020.06.12-23.53.10:530][200]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (681)
+[2020.06.12-23.53.10:532][200]LogModuleManager: Shutting down and abandoning module LogVisualizer (678)
+[2020.06.12-23.53.10:537][200]LogModuleManager: Shutting down and abandoning module IntroTutorials (676)
+[2020.06.12-23.53.10:538][200]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (675)
+[2020.06.12-23.53.10:540][200]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (672)
+[2020.06.12-23.53.10:540][200]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (670)
+[2020.06.12-23.53.10:541][200]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (668)
+[2020.06.12-23.53.10:541][200]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (667)
+[2020.06.12-23.53.11:487][200]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (664)
+[2020.06.12-23.53.11:487][200]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (662)
+[2020.06.12-23.53.11:487][200]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (660)
+[2020.06.12-23.53.11:487][200]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (658)
+[2020.06.12-23.53.11:487][200]LogModuleManager: Shutting down and abandoning module TraceInsights (656)
+[2020.06.12-23.53.11:499][200]LogModuleManager: Shutting down and abandoning module TraceServices (655)
+[2020.06.12-23.53.11:502][200]LogModuleManager: Shutting down and abandoning module EditorInteractiveToolsFramework (652)
+[2020.06.12-23.53.11:502][200]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (650)
+[2020.06.12-23.53.11:503][200]LogModuleManager: Shutting down and abandoning module InputBindingEditor (648)
+[2020.06.12-23.53.11:503][200]LogModuleManager: Shutting down and abandoning module MergeActors (646)
+[2020.06.12-23.53.11:505][200]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (644)
+[2020.06.12-23.53.11:507][200]LogModuleManager: Shutting down and abandoning module LocalizationService (643)
+[2020.06.12-23.53.11:508][200]LogModuleManager: Shutting down and abandoning module HardwareTargeting (640)
+[2020.06.12-23.53.11:508][200]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (638)
+[2020.06.12-23.53.11:508][200]LogModuleManager: Shutting down and abandoning module UndoHistory (636)
+[2020.06.12-23.53.11:510][200]LogModuleManager: Shutting down and abandoning module XmlParser (634)
+[2020.06.12-23.53.11:510][200]LogModuleManager: Shutting down and abandoning module Blutility (632)
+[2020.06.12-23.53.11:510][200]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (630)
+[2020.06.12-23.53.11:511][200]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (629)
+[2020.06.12-23.53.11:513][200]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (626)
+[2020.06.12-23.53.11:513][200]LogModuleManager: Shutting down and abandoning module SettingsEditor (624)
+[2020.06.12-23.53.11:515][200]LogModuleManager: Shutting down and abandoning module ProjectLauncher (622)
+[2020.06.12-23.53.11:517][200]LogModuleManager: Shutting down and abandoning module SessionFrontend (620)
+[2020.06.12-23.53.11:518][200]LogModuleManager: Shutting down and abandoning module ProfilerClient (618)
+[2020.06.12-23.53.11:519][200]LogModuleManager: Shutting down and abandoning module DeviceManager (616)
+[2020.06.12-23.53.11:521][200]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (615)
+[2020.06.12-23.53.11:556][200]LogModuleManager: Shutting down and abandoning module AutomationController (612)
+[2020.06.12-23.53.11:557][200]LogModuleManager: Shutting down and abandoning module AutomationWindow (610)
+[2020.06.12-23.53.11:558][200]LogModuleManager: Shutting down and abandoning module Layers (608)
+[2020.06.12-23.53.11:558][200]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (606)
+[2020.06.12-23.53.11:558][200]LogModuleManager: Shutting down and abandoning module DetailCustomizations (604)
+[2020.06.12-23.53.11:559][200]LogModuleManager: Shutting down and abandoning module PackagesDialog (602)
+[2020.06.12-23.53.11:560][200]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (600)
+[2020.06.12-23.53.11:562][200]LogModuleManager: Shutting down and abandoning module Persona (598)
+[2020.06.12-23.53.11:564][200]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (597)
+[2020.06.12-23.53.11:564][200]LogModuleManager: Shutting down and abandoning module AnimGraph (595)
+[2020.06.12-23.53.11:564][200]LogModuleManager: Shutting down and abandoning module Kismet (592)
+[2020.06.12-23.53.11:575][200]LogModuleManager: Shutting down and abandoning module KismetWidgets (591)
+[2020.06.12-23.53.11:575][200]LogModuleManager: Shutting down and abandoning module GraphEditor (588)
+[2020.06.12-23.53.11:575][200]LogModuleManager: Shutting down and abandoning module StructViewer (586)
+[2020.06.12-23.53.11:576][200]LogModuleManager: Shutting down and abandoning module ClassViewer (584)
+[2020.06.12-23.53.11:576][200]LogModuleManager: Shutting down and abandoning module Toolbox (582)
+[2020.06.12-23.53.11:577][200]LogModuleManager: Shutting down and abandoning module ModuleUI (580)
+[2020.06.12-23.53.11:577][200]LogModuleManager: Shutting down and abandoning module OutputLog (578)
+[2020.06.12-23.53.11:579][200]LogModuleManager: Shutting down and abandoning module GammaUI (576)
+[2020.06.12-23.53.11:580][200]LogModuleManager: Shutting down and abandoning module Documentation (574)
+[2020.06.12-23.53.11:581][200]LogModuleManager: Shutting down and abandoning module LiveCoding (572)
+[2020.06.12-23.53.11:583][200]LogModuleManager: Shutting down and abandoning module LevelSequence (570)
+[2020.06.12-23.53.11:583][200]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (568)
+[2020.06.12-23.53.11:583][200]LogModuleManager: Shutting down and abandoning module MovieScene (566)
+[2020.06.12-23.53.11:583][200]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (564)
+[2020.06.12-23.53.11:584][200]LogModuleManager: Shutting down and abandoning module LauncherPlatform (562)
+[2020.06.12-23.53.11:584][200]LogModuleManager: Shutting down and abandoning module AnalyticsET (560)
+[2020.06.12-23.53.11:584][200]LogModuleManager: Shutting down and abandoning module PortalServices (558)
+[2020.06.12-23.53.11:584][200]LogModuleManager: Shutting down and abandoning module PortalRpc (556)
+[2020.06.12-23.53.11:584][200]LogModuleManager: Shutting down and abandoning module MessagingRpc (554)
+[2020.06.12-23.53.11:584][200]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (552)
+[2020.06.12-23.53.11:584][200]LogModuleManager: Shutting down and abandoning module AudioMixerCore (551)
+[2020.06.12-23.53.11:584][200]LogModuleManager: Shutting down and abandoning module AIModule (548)
+[2020.06.12-23.53.11:585][200]LogModuleManager: Shutting down and abandoning module GameplayDebugger (547)
+[2020.06.12-23.53.11:585][200]LogModuleManager: Shutting down and abandoning module AITestSuite (545)
+[2020.06.12-23.53.11:585][200]LogModuleManager: Shutting down and abandoning module NavigationSystem (543)
+[2020.06.12-23.53.11:585][200]LogModuleManager: Shutting down and abandoning module ProfilerService (540)
+[2020.06.12-23.53.11:620][200]LogModuleManager: Shutting down and abandoning module TaskGraph (538)
+[2020.06.12-23.53.11:622][200]LogModuleManager: Shutting down and abandoning module ScreenshotTools (536)
+[2020.06.12-23.53.11:622][200]LogModuleManager: Shutting down and abandoning module SynthesisEditor (534)
+[2020.06.12-23.53.11:622][200]LogModuleManager: Shutting down and abandoning module Synthesis (532)
+[2020.06.12-23.53.11:625][200]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (530)
+[2020.06.12-23.53.11:625][200]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (528)
+[2020.06.12-23.53.11:625][200]LogModuleManager: Shutting down and abandoning module OculusEditor (526)
+[2020.06.12-23.53.11:625][200]LogModuleManager: Shutting down and abandoning module OculusInput (524)
+[2020.06.12-23.53.11:625][200]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (522)
+[2020.06.12-23.53.11:625][200]LogModuleManager: Shutting down and abandoning module GooglePAD (520)
+[2020.06.12-23.53.11:625][200]LogModuleManager: Shutting down and abandoning module EditableMesh (518)
+[2020.06.12-23.53.11:626][200]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (516)
+[2020.06.12-23.53.11:626][200]LogModuleManager: Shutting down and abandoning module CableComponent (514)
+[2020.06.12-23.53.11:626][200]LogModuleManager: Shutting down and abandoning module AudioCapture (512)
+[2020.06.12-23.53.11:626][200]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (511)
+[2020.06.12-23.53.11:627][200]LogModuleManager: Shutting down and abandoning module AssetTags (508)
+[2020.06.12-23.53.11:627][200]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (506)
+[2020.06.12-23.53.11:627][200]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (504)
+[2020.06.12-23.53.11:627][200]LogModuleManager: Shutting down and abandoning module AppleImageUtils (502)
+[2020.06.12-23.53.11:627][200]LogModuleManager: Shutting down and abandoning module AndroidPermission (500)
+[2020.06.12-23.53.11:627][200]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (498)
+[2020.06.12-23.53.11:628][200]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (496)
+[2020.06.12-23.53.11:631][200]LogModuleManager: Shutting down and abandoning module TemplateSequence (494)
+[2020.06.12-23.53.11:631][200]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineEditor (492)
+[2020.06.12-23.53.11:631][200]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineRenderPasses (490)
+[2020.06.12-23.53.11:631][200]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineSettings (488)
+[2020.06.12-23.53.11:631][200]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineCore (486)
+[2020.06.12-23.53.11:632][200]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (485)
+[2020.06.12-23.53.11:632][200]LogModuleManager: Shutting down and abandoning module MeshPaintingToolset (482)
+[2020.06.12-23.53.11:633][200]LogModuleManager: Shutting down and abandoning module MeshPaintEditorMode (480)
+[2020.06.12-23.53.11:633][200]LogModuleManager: Shutting down and abandoning module MediaCompositing (478)
+[2020.06.12-23.53.11:633][200]LogModuleManager: Shutting down and abandoning module ImgMedia (476)
+[2020.06.12-23.53.11:633][200]LogModuleManager: Shutting down and abandoning module MagicLeapSharedWorld (474)
+[2020.06.12-23.53.11:633][200]LogModuleManager: Shutting down and abandoning module MagicLeapLightEstimation (472)
+[2020.06.12-23.53.11:633][200]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (470)
+[2020.06.12-23.53.11:634][200]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (468)
+[2020.06.12-23.53.11:634][200]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (466)
+[2020.06.12-23.53.11:634][200]LogModuleManager: Shutting down and abandoning module NiagaraEditorWidgets (464)
+[2020.06.12-23.53.11:639][200]LogModuleManager: Shutting down and abandoning module MeshSolverUtilities (462)
+[2020.06.12-23.53.11:640][200]LogModuleManager: Shutting down and abandoning module MeshConversion (460)
+[2020.06.12-23.53.11:641][200]LogModuleManager: Shutting down and abandoning module DynamicMesh (458)
+[2020.06.12-23.53.11:642][200]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (456)
+[2020.06.12-23.53.11:643][200]LogModuleManager: Shutting down and abandoning module GeometricObjects (454)
+[2020.06.12-23.53.11:644][200]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (452)
+[2020.06.12-23.53.11:644][200]LogModuleManager: Shutting down and abandoning module GeometryCollectionSequencer (451)
+[2020.06.12-23.53.11:644][200]LogModuleManager: Shutting down and abandoning module GeometryCollectionEditor (448)
+[2020.06.12-23.53.11:644][200]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (446)
+[2020.06.12-23.53.11:644][200]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (444)
+[2020.06.12-23.53.11:644][200]LogModuleManager: Shutting down and abandoning module ChaosSolverEditor (442)
+[2020.06.12-23.53.11:644][200]LogModuleManager: Shutting down and abandoning module ChaosNiagara (440)
+[2020.06.12-23.53.11:644][200]LogModuleManager: Shutting down and abandoning module FractureEditor (438)
+[2020.06.12-23.53.11:645][200]LogModuleManager: Shutting down and abandoning module ChaosClothEditor (436)
+[2020.06.12-23.53.11:645][200]LogModuleManager: Shutting down and abandoning module ChaosCloth (434)
+[2020.06.12-23.53.11:646][200]LogModuleManager: Shutting down and abandoning module BackChannel (432)
+[2020.06.12-23.53.11:647][200]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (430)
+[2020.06.12-23.53.11:647][200]LogModuleManager: Shutting down and abandoning module AutomationUtils (428)
+[2020.06.12-23.53.11:647][200]LogModuleManager: Shutting down and abandoning module AlembicImporter (426)
+[2020.06.12-23.53.11:647][200]LogModuleManager: Shutting down and abandoning module AlembicLibrary (425)
+[2020.06.12-23.53.11:647][200]LogModuleManager: Shutting down and abandoning module GeometryCache (424)
+[2020.06.12-23.53.11:647][200]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (423)
+[2020.06.12-23.53.11:647][200]LogModuleManager: Shutting down and abandoning module VariantManagerContentEditor (418)
+[2020.06.12-23.53.11:648][200]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (416)
+[2020.06.12-23.53.11:648][200]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (414)
+[2020.06.12-23.53.11:648][200]LogModuleManager: Shutting down and abandoning module PluginBrowser (412)
+[2020.06.12-23.53.11:652][200]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (410)
+[2020.06.12-23.53.11:654][200]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (408)
+[2020.06.12-23.53.11:655][200]LogModuleManager: Shutting down and abandoning module EditorScriptingUtilities (406)
+[2020.06.12-23.53.11:655][200]LogModuleManager: Shutting down and abandoning module CurveEditorTools (404)
+[2020.06.12-23.53.11:656][200]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (402)
+[2020.06.12-23.53.11:657][200]LogModuleManager: Shutting down and abandoning module CryptoKeys (400)
+[2020.06.12-23.53.11:657][200]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (398)
+[2020.06.12-23.53.11:658][200]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (396)
+[2020.06.12-23.53.11:658][200]LogModuleManager: Shutting down and abandoning module UObjectPlugin (394)
+[2020.06.12-23.53.11:658][200]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (392)
+[2020.06.12-23.53.11:659][200]LogModuleManager: Shutting down and abandoning module RiderSourceCodeAccess (390)
+[2020.06.12-23.53.11:660][200]LogModuleManager: Shutting down and abandoning module PlasticSourceControl (388)
+[2020.06.12-23.53.11:663][200]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (386)
+[2020.06.12-23.53.11:668][200]LogModuleManager: Shutting down and abandoning module GitSourceControl (384)
+[2020.06.12-23.53.11:670][200]LogModuleManager: Shutting down and abandoning module SourceControl (383)
+[2020.06.12-23.53.11:671][200]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (380)
+[2020.06.12-23.53.11:672][200]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (378)
+[2020.06.12-23.53.11:672][200]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (376)
+[2020.06.12-23.53.11:672][200]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (374)
+[2020.06.12-23.53.11:672][200]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (372)
+[2020.06.12-23.53.11:673][200]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (370)
+[2020.06.12-23.53.11:673][200]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (368)
+[2020.06.12-23.53.11:673][200]LogModuleManager: Shutting down and abandoning module Paper2DEditor (366)
+[2020.06.12-23.53.11:675][200]LogModuleManager: Shutting down and abandoning module SoundFields (364)
+[2020.06.12-23.53.11:675][200]LogModuleManager: Shutting down and abandoning module SignificanceManager (362)
+[2020.06.12-23.53.11:675][200]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (360)
+[2020.06.12-23.53.11:675][200]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (358)
+[2020.06.12-23.53.11:675][200]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (354)
+[2020.06.12-23.53.11:675][200]LogModuleManager: Shutting down and abandoning module ActorSequence (352)
+[2020.06.12-23.53.11:676][200]LogModuleManager: Shutting down and abandoning module UdpMessaging (350)
+[2020.06.12-23.53.11:776][200]LogModuleManager: Shutting down and abandoning module TcpMessaging (348)
+[2020.06.12-23.53.11:879][200]LogModuleManager: Shutting down and abandoning module MagicLeapARPin (346)
+[2020.06.12-23.53.11:879][200]LogModuleManager: Shutting down and abandoning module MagicLeapHandMeshing (344)
+[2020.06.12-23.53.11:879][200]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (342)
+[2020.06.12-23.53.11:879][200]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (340)
+[2020.06.12-23.53.11:879][200]LogModuleManager: Shutting down and abandoning module MagicLeapPlanes (338)
+[2020.06.12-23.53.11:881][200]LogMagicLeapPlanes: Planes tracker already destroyed.
+[2020.06.12-23.53.11:881][200]LogModuleManager: Shutting down and abandoning module MagicLeapImageTracker (336)
+[2020.06.12-23.53.11:882][200]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (334)
+[2020.06.12-23.53.11:882][200]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (332)
+[2020.06.12-23.53.11:883][200]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (330)
+[2020.06.12-23.53.11:883][200]LogModuleManager: Shutting down and abandoning module MagicLeapController (328)
+[2020.06.12-23.53.11:886][200]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2020.06.12-23.53.11:886][200]LogModuleManager: Shutting down and abandoning module MagicLeapARPinImpl (326)
+[2020.06.12-23.53.11:887][200]LogModuleManager: Shutting down and abandoning module MagicLeapAR (324)
+[2020.06.12-23.53.11:887][200]LogModuleManager: Shutting down and abandoning module AugmentedReality (323)
+[2020.06.12-23.53.11:887][200]LogModuleManager: Shutting down and abandoning module NiagaraAnimNotifies (320)
+[2020.06.12-23.53.11:887][200]LogModuleManager: Shutting down and abandoning module Niagara (318)
+[2020.06.12-23.53.11:890][200]LogModuleManager: Shutting down and abandoning module SignalProcessing (317)
+[2020.06.12-23.53.11:890][200]LogModuleManager: Shutting down and abandoning module NiagaraEditor (315)
+[2020.06.12-23.53.11:943][200]LogModuleManager: Shutting down and abandoning module NiagaraCore (312)
+[2020.06.12-23.53.11:943][200]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (310)
+[2020.06.12-23.53.11:944][200]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (308)
+[2020.06.12-23.53.11:946][200]LogModuleManager: Shutting down and abandoning module FacialAnimation (306)
+[2020.06.12-23.53.11:946][200]LogModuleManager: Shutting down and abandoning module DataValidation (304)
+[2020.06.12-23.53.11:946][200]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (302)
+[2020.06.12-23.53.11:948][200]LogModuleManager: Shutting down and abandoning module LevelEditor (301)
+[2020.06.12-23.53.11:952][200]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (300)
+[2020.06.12-23.53.11:954][200]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (298)
+[2020.06.12-23.53.11:955][200]LogModuleManager: Shutting down and abandoning module MainFrame (296)
+[2020.06.12-23.53.11:956][200]LogModuleManager: Shutting down and abandoning module HotReload (295)
+[2020.06.12-23.53.11:957][200]LogModuleManager: Shutting down and abandoning module ToolMenus (291)
+[2020.06.12-23.53.11:957][200]LogModuleManager: Shutting down and abandoning module TreeMap (289)
+[2020.06.12-23.53.11:958][200]LogModuleManager: Shutting down and abandoning module AnimationSharing (286)
+[2020.06.12-23.53.11:958][200]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (284)
+[2020.06.12-23.53.11:960][200]LogModuleManager: Shutting down and abandoning module Paper2D (282)
+[2020.06.12-23.53.11:960][200]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (280)
+[2020.06.12-23.53.11:961][200]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (278)
+[2020.06.12-23.53.11:961][200]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (276)
+[2020.06.12-23.53.11:961][200]LogModuleManager: Shutting down and abandoning module PacketHandler (274)
+[2020.06.12-23.53.11:961][200]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (272)
+[2020.06.12-23.53.11:962][200]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (270)
+[2020.06.12-23.53.11:963][200]LogModuleManager: Shutting down and abandoning module MediaAssets (268)
+[2020.06.12-23.53.11:963][200]LogModuleManager: Shutting down and abandoning module Overlay (266)
+[2020.06.12-23.53.11:963][200]LogModuleManager: Shutting down and abandoning module OverlayEditor (265)
+[2020.06.12-23.53.11:963][200]LogModuleManager: Shutting down and abandoning module VREditor (262)
+[2020.06.12-23.53.11:964][200]LogModuleManager: Shutting down and abandoning module StringTableEditor (260)
+[2020.06.12-23.53.11:965][200]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (258)
+[2020.06.12-23.53.11:965][200]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (256)
+[2020.06.12-23.53.11:967][200]LogModuleManager: Shutting down and abandoning module FunctionalTesting (254)
+[2020.06.12-23.53.11:967][200]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (252)
+[2020.06.12-23.53.11:968][200]LogModuleManager: Shutting down and abandoning module UMG (250)
+[2020.06.12-23.53.11:970][200]LogModuleManager: Shutting down and abandoning module UMGEditor (249)
+[2020.06.12-23.53.11:970][200]LogModuleManager: Shutting down and abandoning module MessageLog (247)
+[2020.06.12-23.53.11:970][200]LogModuleManager: Shutting down and abandoning module MaterialEditor (245)
+[2020.06.12-23.53.11:975][200]LogModuleManager: Shutting down and abandoning module ContentBrowser (244)
+[2020.06.12-23.53.11:979][200]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (243)
+[2020.06.12-23.53.11:983][200]LogModuleManager: Shutting down and abandoning module SlateReflector (236)
+[2020.06.12-23.53.11:986][200]LogModuleManager: Shutting down and abandoning module Slate (234)
+[2020.06.12-23.53.11:988][200]LogModuleManager: Shutting down and abandoning module SlateCore (232)
+[2020.06.12-23.53.11:988][200]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (230)
+[2020.06.12-23.53.11:988][200]LogModuleManager: Shutting down and abandoning module UnrealEd (228)
+[2020.06.12-23.53.11:988][200]LogModuleManager: Shutting down and abandoning module MRMesh (226)
+[2020.06.12-23.53.11:988][200]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (224)
+[2020.06.12-23.53.11:988][200]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (222)
+[2020.06.12-23.53.11:988][200]LogModuleManager: Shutting down and abandoning module XAudio2 (220)
+[2020.06.12-23.53.11:988][200]LogModuleManager: Shutting down and abandoning module Networking (218)
+[2020.06.12-23.53.11:988][200]LogModuleManager: Shutting down and abandoning module Core (216)
+[2020.06.12-23.53.11:988][200]LogModuleManager: Shutting down and abandoning module MovieSceneTools (214)
+[2020.06.12-23.53.11:988][200]LogModuleManager: Shutting down and abandoning module CurveEditor (213)
+[2020.06.12-23.53.11:988][200]LogModuleManager: Shutting down and abandoning module Sequencer (211)
+[2020.06.12-23.53.11:988][200]LogModuleManager: Shutting down and abandoning module EditorStyle (210)
+[2020.06.12-23.53.11:997][200]LogModuleManager: Shutting down and abandoning module KismetCompiler (206)
+[2020.06.12-23.53.11:997][200]LogModuleManager: Shutting down and abandoning module MeshBuilder (204)
+[2020.06.12-23.53.11:997][200]LogModuleManager: Shutting down and abandoning module MeshUtilities (202)
+[2020.06.12-23.53.12:044][200]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (201)
+[2020.06.12-23.53.12:045][200]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (200)
+[2020.06.12-23.53.12:046][200]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (199)
+[2020.06.12-23.53.12:047][200]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (197)
+[2020.06.12-23.53.12:047][200]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (195)
+[2020.06.12-23.53.12:052][200]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (193)
+[2020.06.12-23.53.12:053][200]LogModuleManager: Shutting down and abandoning module MaterialBaking (189)
+[2020.06.12-23.53.12:055][200]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (184)
+[2020.06.12-23.53.12:055][200]LogModuleManager: Shutting down and abandoning module DerivedDataCache (182)
+[2020.06.12-23.53.12:055][200]LogModuleManager: Shutting down and abandoning module XGEController (180)
+[2020.06.12-23.53.12:056][200]LogXGEController: Cleaning working directory: C:/Users/zeyul/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.06.12-23.53.12:057][200]LogModuleManager: Shutting down and abandoning module TargetPlatform (178)
+[2020.06.12-23.53.12:060][200]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (177)
+[2020.06.12-23.53.12:060][200]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (175)
+[2020.06.12-23.53.12:061][200]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (173)
+[2020.06.12-23.53.12:061][200]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (171)
+[2020.06.12-23.53.12:061][200]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (169)
+[2020.06.12-23.53.12:063][200]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (167)
+[2020.06.12-23.53.12:063][200]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (165)
+[2020.06.12-23.53.12:064][200]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (163)
+[2020.06.12-23.53.12:065][200]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (161)
+[2020.06.12-23.53.12:068][200]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (159)
+[2020.06.12-23.53.12:068][200]LogModuleManager: Shutting down and abandoning module ImageWrapper (158)
+[2020.06.12-23.53.12:068][200]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (155)
+[2020.06.12-23.53.12:068][200]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (153)
+[2020.06.12-23.53.12:069][200]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (151)
+[2020.06.12-23.53.12:069][200]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (149)
+[2020.06.12-23.53.12:069][200]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (147)
+[2020.06.12-23.53.12:070][200]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (145)
+[2020.06.12-23.53.12:070][200]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (143)
+[2020.06.12-23.53.12:070][200]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (141)
+[2020.06.12-23.53.12:071][200]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (139)
+[2020.06.12-23.53.12:190][200]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (137)
+[2020.06.12-23.53.12:248][200]LogModuleManager: Shutting down and abandoning module LinuxAArch64ServerTargetPlatform (135)
+[2020.06.12-23.53.12:248][200]LogModuleManager: Shutting down and abandoning module LinuxAArch64ClientTargetPlatform (133)
+[2020.06.12-23.53.12:249][200]LogModuleManager: Shutting down and abandoning module LinuxAArch64NoEditorTargetPlatform (131)
+[2020.06.12-23.53.12:249][200]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (129)
+[2020.06.12-23.53.12:250][200]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (127)
+[2020.06.12-23.53.12:251][200]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (125)
+[2020.06.12-23.53.12:251][200]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (123)
+[2020.06.12-23.53.12:251][200]LogModuleManager: Shutting down and abandoning module Messaging (121)
+[2020.06.12-23.53.12:251][200]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (119)
+[2020.06.12-23.53.12:347][200]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (117)
+[2020.06.12-23.53.12:396][200]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (115)
+[2020.06.12-23.53.12:396][200]LogModuleManager: Shutting down and abandoning module InputCore (112)
+[2020.06.12-23.53.12:396][200]LogModuleManager: Shutting down and abandoning module Settings (110)
+[2020.06.12-23.53.12:396][200]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (108)
+[2020.06.12-23.53.12:445][200]LogModuleManager: Shutting down and abandoning module PhysXCooking (106)
+[2020.06.12-23.53.12:445][200]LogModuleManager: Shutting down and abandoning module ChaosSolvers (104)
+[2020.06.12-23.53.12:447][200]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (103)
+[2020.06.12-23.53.12:447][200]LogModuleManager: Shutting down and abandoning module Chaos (100)
+[2020.06.12-23.53.12:447][200]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (98)
+[2020.06.12-23.53.12:448][200]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (97)
+[2020.06.12-23.53.12:448][200]LogModuleManager: Shutting down and abandoning module AVEncoder (96)
+[2020.06.12-23.53.12:448][200]LogModuleManager: Shutting down and abandoning module SteamVRInputDevice (92)
+[2020.06.12-23.53.12:450][200]LogModuleManager: Shutting down and abandoning module SteamVRInput (90)
+[2020.06.12-23.53.12:450][200]LogModuleManager: Shutting down and abandoning module SteamVR (88)
+[2020.06.12-23.53.12:450][200]LogHMD: Freeing OpenVRDLLHandle.
+[2020.06.12-23.53.12:450][200]LogModuleManager: Shutting down and abandoning module OculusHMD (86)
+[2020.06.12-23.53.12:450][200]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (84)
+[2020.06.12-23.53.12:450][200]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (82)
+[2020.06.12-23.53.12:450][200]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2020.06.12-23.53.12:450][200]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (76)
+[2020.06.12-23.53.12:452][200]LogModuleManager: Shutting down and abandoning module XMPP (71)
+[2020.06.12-23.53.12:454][200]LogModuleManager: Shutting down and abandoning module WebSockets (70)
+[2020.06.12-23.53.12:488][200]LogModuleManager: Shutting down and abandoning module HTTP (67)
+[2020.06.12-23.53.12:488][200]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2020.06.12-23.53.12:488][200]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B12CD4BD7-4D94-DE2F-B828-3F82F8DFB236%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.0-13144385%2B%2B%2BUE4%2BRelease-4.25&UserID=9efe94a64ccaf9c721c163ba85685ad4%7Cbeda2b0709d84db185a170ca629fb3ff%7C5fe164dd-6b19-4b16-9a39-a478f374b812&AppEnvironment=datacollector-source&UploadType=eteventstream] refs=[1] status=Processing
+[2020.06.12-23.53.12:494][200]LogModuleManager: Shutting down and abandoning module SSL (66)
+[2020.06.12-23.53.12:553][200]LogModuleManager: Shutting down and abandoning module WmfMedia (62)
+[2020.06.12-23.53.12:557][200]LogModuleManager: Shutting down and abandoning module Media (61)
+[2020.06.12-23.53.12:559][200]LogModuleManager: Shutting down and abandoning module MagicLeap (58)
+[2020.06.12-23.53.12:559][200]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (56)
+[2020.06.12-23.53.12:559][200]LogModuleManager: Shutting down and abandoning module NiagaraShader (54)
+[2020.06.12-23.53.12:559][200]LogModuleManager: Shutting down and abandoning module VariantManagerContent (52)
+[2020.06.12-23.53.12:559][200]LogModuleManager: Shutting down and abandoning module DatasmithContent (50)
+[2020.06.12-23.53.12:559][200]LogModuleManager: Shutting down and abandoning module AISupportModule (48)
+[2020.06.12-23.53.12:559][200]LogModuleManager: Shutting down and abandoning module DesktopPlatform (46)
+[2020.06.12-23.53.12:560][200]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (44)
+[2020.06.12-23.53.12:562][200]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (42)
+[2020.06.12-23.53.12:562][200]LogModuleManager: Shutting down and abandoning module PlatformCrypto (40)
+[2020.06.12-23.53.12:562][200]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2020.06.12-23.53.12:562][200]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2020.06.12-23.53.12:565][200]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2020.06.12-23.53.12:569][200]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2020.06.12-23.53.12:571][200]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2020.06.12-23.53.12:571][200]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2020.06.12-23.53.12:571][200]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2020.06.12-23.53.12:577][200]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2020.06.12-23.53.12:578][200]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2020.06.12-23.53.12:578][200]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2020.06.12-23.53.12:578][200]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2020.06.12-23.53.12:579][200]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2020.06.12-23.53.12:579][200]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2020.06.12-23.53.12:579][200]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2020.06.12-23.53.12:580][200]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2020.06.12-23.53.12:580][200]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2020.06.12-23.53.12:581][200]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2020.06.12-23.53.12:581][200]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2020.06.12-23.53.12:585][200]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2020.06.12-23.53.12:586][200]LogContentStreaming: Display: There are 1 unreleased StreamingManagers
+[2020.06.12-23.53.12:590][200]LogD3D11RHI: Shutdown
+[2020.06.12-23.53.12:590][200]LogD3D11RHI: CleanupD3DDevice
+[2020.06.12-23.53.12:675][200]LogExit: Exiting.
+[2020.06.12-23.53.12:693][200]Log file closed, 06/12/20 17:53:12
