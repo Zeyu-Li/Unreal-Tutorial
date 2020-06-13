@@ -308,7 +308,7 @@ For this tutorial, I will do something a bit different and create a landscape ma
 
 3. You will see the node edit now and the main node that looks exactly like Blender's Principled BSDF node
 
-4. Right click to get the search menu and look for **Layer Blend**. This will make it such that Unreal can switch materials in paint mode 
+4. Right click to get the search menu (not by default, this search is case sensitive, so turn that off) and look for **Layer Blend**. This will make it such that Unreal can switch materials in paint mode 
 
 5. ![nodeSetting](images/nodeSetting.jpg)
 
@@ -484,6 +484,8 @@ Fog can be added in duck scenes or to add a cloud of mystery. There are two kind
 
 Coding in Unreal is different from most languages. The major difference is that this is a visual programming language. It uses nodes with inputs on the left side and outputs on the write side. Of course you can code in pure C++, but we will explore the Blueprints, which is Unreal's intended way of programming in logic. 
 
+**IMPORTANT** - there are a few ways to debug but the simplest is to use the **Print String** node. This will print a blue string in the top left corner of the screen
+
 To start, 
 
 1. Click Blueprints -> New Empty Blueprint Classes
@@ -527,7 +529,26 @@ Music can be add just by dragging into the scene. To loop the music,
 Sounds can add a layer of immersion to the game. In this tutorial, I will add some walking sounds
 
 1. Locate some walking sounds online or just use the ones I have
-2. 
+
+2. Make a sound cue
+
+3. ![walkSound](images/walkSound.jpg)
+
+   Drag the sounds in and add a Random (while selecting the sound nodes so they automatically connect). Finally connect that to the output
+
+4. The easiest way to play the sounds are to do it with the animations, otherwise, you may have to program in logic to play the sounds (a lot of work)
+
+5. Since I have the 1st person controller, go to the firstperson character animation (Content -> FirstPerson -> FirstPerson_AnimBP)
+
+6. Click on **Animation** on top right
+
+7. Now you see the fire animation, but you want to get to the run animation, so go to the **Asset Browser **on the bottom right corner
+
+8. Somewhere in the timeline under Notifies (doesn't matter where because we don't have a walk animation), right click and select Add Notify -> Play Sound
+
+9. ![sound](images/sound.jpg)
+
+   Click on the sound keyframe and in the sound box, select the sound cue
 
 
 
@@ -545,9 +566,44 @@ Press Ok, then find the content folder of the project to move to and confirm
 
 Most games will probably require a UI (user interface), so I will go through one here on a pause menu
 
-1. 
+1. Go to project settings with **Edit** Tab
+
+2. Go to Engine -> Input -> Bindings -> Action Mappings
+
+3. Add another action mapping of pauseGame and add the key of choice (if you chose \<esc>, it will not work when you are running it)
+
+4. ![paused](images/paused.jpg)
+
+   Open your first person controller and add the node like the ones above. Also, make sure in the InputAction, the Execute when Paused checkbox on
+
+5. Now the pausing should work, so we will do the pause menu
+
+6. Make a new folder in Content called UI or something and **Add New** -> User Interface -> Widget Blueprint
+
+7. Open it and you will see a UI maker
+
+8. Add a size box to the hierarchy 
+
+9. Play around with the Details till you get the box in a place you want
+
+10. ![hier](images/hier.jpg)
+
+    Add a vertical box embedded in the size box and a text box inside of that. In the end, it should look like the hierarchy above
+
+11. Edit text, add buttons, whatever you need, you can drag into the Vertical Box and they will stack on each other
+
+12. Once you are satisfied, go back to the pause game node editor
+
+13. ![pauseMenu](images/pauseMenu.jpg)
+
+    Copy the node here, remembering to change the Create widget to the Pause UI class and the Paused variable setting to get or, follow Unreal's tutorial (second link)
 
 
+
+Resources: 
+
+* https://www.youtube.com/watch?v=pKggN6f_8Qo
+* https://docs.unrealengine.com/en-US/Engine/UMG/HowTo/CreatingWidgets/index.html
 
 <a name="demo"></a>
 
