@@ -2,5 +2,10 @@
 	"FileVersion": 3,
 	"EngineAssociation": "4.25",
 	"Category": "",
-	"Description": ""
+	"Description": "",
+	"TargetPlatforms": [
+		"AllDesktop",
+		"WindowsNoEditor",
+		"IOS"
+	]
 }

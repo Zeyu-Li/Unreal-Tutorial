@@ -506,10 +506,25 @@ To start,
 
 Events are important to drive a game and to progress. Events in Unreal should be mainly handled by **Blueprints**. In this tutorial, I will go through the process of creating a bunch of areas I need to get to and move the area after you reach that location. 
 
-1. Open the Level Blueprint
-2. 
+1. Drag in a trigger volume (Box, capsule or sphere)
+
+2. With the trigger selected, open the Level Blueprint
+
+3. Right click and select Add Event for ... -> Collision -> Add on Actor Begin Overlap
+
+4. Connect to a Cast to FirstPersonCharacter (or to whatever character you have)
+
+5. (Optional) If you want to debug and see that it is working, connect to a print string node from the cast to first person...
+
+6. I want it such that the object changes displacement 3 times before you win
+
+7. ![finalEvent](images/finalEvent.jpg)
+
+   Set up the nodes like this. I know this might be hard to follow, but this is basically coding but messier
 
 
+
+Now you might get put off by this, but once you play around and get to know the tools, it will be easier and faster than coding it in C++
 
 <a name="music"></a>
 
@@ -597,6 +612,12 @@ Most games will probably require a UI (user interface), so I will go through one
 13. ![pauseMenu](images/pauseMenu.jpg)
 
     Copy the node here, remembering to change the Create widget to the Pause UI class and the Paused variable setting to get or, follow Unreal's tutorial (second link)
+
+
+
+**Respawn Player**
+
+Use this: https://docs.unrealengine.com/en-US/Gameplay/HowTo/RespawnPlayer/Blueprints/index.html
 
 
 
