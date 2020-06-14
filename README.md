@@ -640,7 +640,7 @@ P.S. If you want to provide feedback or have questions, start a issue in the Git
 
 This is a demo of the project I've been able to complete with ideas from this tutorial:
 
-
+![demo](images/demo.gif)
 
 
 
