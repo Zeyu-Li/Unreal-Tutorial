@@ -11,28 +11,17 @@ Unreal engine 4 is a powerful tool that has plenty of functionality built in. If
 ## Index
 
 1. [Install](#setup)
-
 2. [Overview](#overview)
-
 3. [Cloning Guide](#guide)
-
 4. [Models & 3D](#models)
-
 5. [Materials](#mat)
-
 6. [Movement & Camera](#move)
-
 7. [Lighting](#light)
-
 8. [Water](#water)
-
 9. [Animation](#anim)
-
 10. [Particles](#particle)
-
    * [Fog](#fog)
    * [Bloom](#bloom)
-
 11. [Coding](#code) 
 12. [Events](#events)
 13. [Music and Sound](#music)
