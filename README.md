@@ -21,7 +21,7 @@ Unreal engine 4 is a powerful tool that has plenty of functionality built in. If
 9. [Animation](#anim)
 10. [Particles](#particle)
     * [Fog](#fog)
-       * [Bloom](#bloom)
+    * [Bloom](#bloom)
 11. [Coding](#code) 
 12. [Events](#events)
 13. [Music and Sound](#music)
