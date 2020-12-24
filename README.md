@@ -514,7 +514,12 @@ This is a demo of the project I've been able to complete with ideas from this tu
 
 
 
-\* Note to download this game, go to the [release](https://github.com/Zeyu-Li/Unreal-Tutorial/releases) part of the GitHub repo hosting this project
+\* Note to download this game (only for Windows, Unix users will need to build from source):
+
+1. Go to the [release](https://github.com/Zeyu-Li/Unreal-Tutorial/releases) part of the GitHub repo hosting this project
+2. Download the Unreal_game.zip
+3. Unzip
+4. Run the executable!
 
 
 
