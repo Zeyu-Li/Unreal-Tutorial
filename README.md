@@ -2,7 +2,7 @@
 
 ## Preface
 
-Unreal engine 4 is a powerful tool that has plenty of functionality built in. If you want a powerful 3D engine to build games, demos, or music videos ([Crab Rave](https://www.youtube.com/watch?v=cE0wfjsybIQ)), you are in the right place. For this tutorial, I will be using version 4.25.0 but following version should be quite similar.
+Unreal Engine 4 (UE4) is a powerful tool that has plenty of functionality built in. If you want a powerful 3D engine to build games, demos, or music videos ([Crab Rave](https://www.youtube.com/watch?v=cE0wfjsybIQ)), you are in the right place. For this tutorial, I will be using version 4.25.0 but following version should be quite similar.
 
 <a name="top"></a>
 
