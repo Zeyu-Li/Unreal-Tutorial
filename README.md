@@ -2,9 +2,7 @@
 
 ## Preface
 
-Unreal engine 4 is a powerful tool that has plenty of functionality built in. If you want a powerful 3D engine to build games, demos, or music videos (like the [Crab Rave](https://www.youtube.com/watch?v=cE0wfjsybIQ)), you are in the right place. For this tutorial, I will be using version 4.25.0 but following version should be quite similar
-
- 
+Unreal engine 4 is a powerful tool that has plenty of functionality built in. If you want a powerful 3D engine to build games, demos, or music videos ([Crab Rave](https://www.youtube.com/watch?v=cE0wfjsybIQ)), you are in the right place. For this tutorial, I will be using version 4.25.0 but following version should be quite similar.
 
 <a name="top"></a>
 
@@ -12,26 +10,29 @@ Unreal engine 4 is a powerful tool that has plenty of functionality built in. If
 
 1. [Install](#setup)
 2. [Overview](#overview)
-3. [Cloning Guide](#guide)
-4. [Models & 3D](#models)
-5. [Materials](#mat)
-6. [Movement & Camera](#move)
-7. [Lighting](#light)
-8. [Water](#water)
-9. [Animation](#anim)
-10. [Particles](#particle)
-    * [Fog](#fog)
-    * [Bloom](#bloom)
-11. [Coding](#code) 
-12. [Events](#events)
-13. [Music and Sound](#music)
-14. [Misc](#misc)
-15. [Demo](#demo)
-16. [Resources](#help)
+3. [Models & 3D](#models)
+   * [Software](#software)
+   * [Libraries](#libraries)
+   * [Unreal Basics](unreal_3d)
+   * [Landscape](#landscape)
+   * [Foliage](#foliage)
+4. [Materials](#mat)
+5. [Movement & Camera](#move)
+6. [Lighting](#light)
+7. [Water](#water)
+8. [Animation](#anim)
+9. [Particles](#particle)
+   * [Fog](#fog)
+   * [Bloom](#bloom)
+10. [Coding](#code) 
+11. [Events](#events)
+12. [Music and Sound](#music)
+13. [Misc](#misc)
+14. [Demo](#demo)
+15. [Collaboration](#collab)
+16. [Cloning Guide](#guide)
 17. [License](#license)
-18. [Collaboration](#collab)
-
-
+18. [Resources](#help)
 
 <a name="setup"></a>
 
@@ -39,54 +40,34 @@ Unreal engine 4 is a powerful tool that has plenty of functionality built in. If
 
 The Unreal engine is a product of Epic Games. Like Unity, it is free to use if your game makes less than $1 000 000 USD in **revenue (not profit)**. After which, 5% goes to Epic. 
 
-1. Sign in/Register to [Epic Games](www.epicgames.com/id/login) (note you can use Google, Facebook, Xbox Live, PlayStation Network, or Nintendo to sign in)
-
-2. Download and install the Epic Game Launcher
-
-3. On the left tab will be a section for Unreal Engine
+1. **Sign in/Register** to [Epic Games](www.epicgames.com/id/login) (note you can use Google, Facebook, Xbox Live, PlayStation Network, or Nintendo to sign in)
+2. **Download and install** the Epic Game Launcher
+3. On the left tab will be a section for Unreal Engine which you need to click
 
    ![setup1](images/setup1.jpg)
-
-   Click it
-
 4. As seen above, there are 5 tabs
-
    1. **Unreal Engine** is where you will see the news about Unreal Engine and some useful links
-
    2. **Learn** contains links to documentation and other exemplar content
-
    3. **Marketplace** is a store of assets, plugins and many other things relevant to the Unreal Engine (there are tons of free stuff from Epic and other creators so don't be afraid to import or add from the marketplace)
-
    4. **Library** is where you will see projects (if you have any) and the version of the Unreal Engine you will be installing. For this tutorial, I will be using 4.25.0. To add an engine, click the plus icon in the **ENGINE VERSIONS** and the newest stable version should be displayed. 
 
       ![setup2](images/setup2.jpg)
-
    5. **Twinmotion** is a CAD plugin that is irrelevant to this tutorial
-
-5. Next click install and follow the prompts. (\*note, the install will take a long time)
-
-6. Click Launch
-
+5. Next click install (which might take a long time) and follow the prompts 
+6. Click **Launch**
 7. After a couple of prompts, it will initialize and a new window asking for the project template will pop up
-
 8. For this tutorial, we will use a blank template (**Games -> Blank**) but feel free to use one of Unreal's starting points because the template are well thought out and can be quite useful as a starting off point
-
 9. In the project settings, I will leave it with the default but feel free to change the settings to your liking (most of options are self explanatory and you can change these options later)
-
 10. Change the location of the project and select **Create project**
-
 11. After initializing, you will have a new Unreal project!
 
-
-
-
-\* init notes:
+**Storage Notes**
 
 If you see that the new Unreal project is taking a lot of storage, it is mostly texture images, therefore, if you want to save space, simply delete the textures folder or what do what I do, which is to move all the textures outside the Unreal project and put it in another folder, only moving some textures and their normal maps when I need to use them in the project.
 
-\* Requirement notes:
+**Requirements**
 
-Unreal is not a trivial engine and can be quite expensive computationally. Therefore, look at the [requirements](https://docs.unrealengine.com/en-US/GettingStarted/RecommendedSpecifications/index.html) in the Unreal site to  see if your computer is up for the task of running Unreal
+Unreal is not a trivial engine and can be quite computationally expensive. Therefore, look at the [requirements](https://docs.unrealengine.com/en-US/GettingStarted/RecommendedSpecifications/index.html) in the Unreal site to see if your computer is up for the task of running Unreal!
 
 
 
@@ -97,18 +78,14 @@ Unreal is not a trivial engine and can be quite expensive computationally. There
 Unreal Engine is a windowed application with many panels that are dock-able anywhere in the window. By default, the left most side is a window called **Place Actors**. This tab handles added 3D objects, including
 
 * volumes
-
 * characters
-
 * lights
-
 * cameras
-
 * effects
-
 * geometry, and
-
 * more...
+
+![unrealEditor](images/unrealEditor.jpg)
 
 In the center is the scene view. This is where you can preview and play. 
 
@@ -120,84 +97,55 @@ This tab is called **details** and does what it says. You can control the detail
 
 Of course with these panels/windows, you can move any of the windows to suit them to your needs. 
 
-
-
-One thing that is different from previous versions, is the different modes (ie paint, landscape, foliage, and geometry). By default, you will not see the different modes, so if you are following an old tutorial, don't worry, the modes are still there. Now the easiest way to access it is to use the Shift-#number shortcut. Please resort to the [Unreal documentation](https://docs.unrealengine.com/en-US/Engine/UI/LevelEditor/Modes/index.html) to stay up to date
-
-
-
-<a name="guide"></a>
-
-## 3. Cloning Guide
-
-From my [GitHub repository](https://github.com/Zeyu-Li/Unreal-template):
-
-1. Download ZIP after clicking Clone or download
-
-   <img src="images/clone.jpg" alt="clone" style="zoom:50%;" />
-
-2. Unzip and move to desired directory
-
-3. Launch Unreal Engine (version >= 4.25.0)
-
-4. In the Select or Create New Project, select **More**
-
-   ![open](images/open.jpg)
-
-5. Click Browse... and find the place where you unzipped the download clone. Go into the folder and find the Unreal_Template.uproject and select it
-
-6. Now the project should open
-
-7. Go into the Content -> Maps in the Content Browser and select **Main** to go to the main level
+One thing that is different from previous versions, is the different modes (ie paint, landscape, foliage, and geometry). By default, you will not see the different modes, so if you are following an old tutorial, don't worry, the modes are still there. Now the easiest way to access it is to use the Shift-#number shortcut. Please resort to the [Unreal documentation](https://docs.unrealengine.com/en-US/Engine/UI/LevelEditor/Modes/index.html) to stay up to date.
 
 
 
 <a name="models"></a>
 
-## 4. Models & 3D
+## 3. Models & 3D
 
 Unreal is a 3D engine, therefore, it come with many great tools and libraries. By default, Unreal will start you off with a StarterContent folder with many things including models you can drag into the scene. Of course, you can make models in a 3D program of your choice (I will use [Blender](https://www.blender.org/)) and export it as an fbx file format. The following will list some more options of 3D programs to create models:
 
-**Software**
+<a name="software"></a>
 
-Free
+#### Software
+
+**Free**
 
 * [Blender](https://www.blender.org/) - a very powerful open source 3D modeling, texturing, animations, and general 3D software. All my models in the exercises where made in Blender. A good place to start is with [Andrew's Donut](https://www.youtube.com/watch?v=TPrnSACiTJ4&list=PLxLGgWrla12dEW5mjO09kR2_TzPqDTXdw). New 2.8 version is very similar to all other 3D software. I **very strongly** advice you use Blender because it is free and is often much better than paid software
-* [TreeIt](https://www.evolved-software.com/treeit/treeit) - a tree generator with presets that range from cactus to palm trees
+* [TreeIt](https://www.evolved-software.com/treeit/treeit) - a tree generator with presets that range from cacti to palm trees
 
-
-
-Paid
+**Paid**
 
 * [Cinema 4D](https://www.maxon.net/en-us/products/cinema-4d/overview/) - 59.99USD/month (overpriced and not as good as Blender)
-* [Autodesk Maya](https://www.autodesk.com/products/maya/overview) - 1 620 USD/year (supposedly the industry standard) \* Note I don't know if they have a 3 year free for students like other Autodesk CAD software
+* [Autodesk Maya](https://www.autodesk.com/products/maya/overview) - 1 620 USD/year (supposedly the industry standard) 
+  \* Note I don't know if they have a 3 year free for students like other Autodesk CAD software
 * [Houdini](https://www.sidefx.com/products/houdini/) - 199 USD / year
-* [Substance Designer](https://www.substance3d.com/products/substance-designer) - $19.90/month (for **revenue** under \$100k) a node based texture designer. \* Note this might actually be useful, but from my experience, it is not easy to learn and textures can be found online or created with other programs like Adobe Illustrator and converted into normal maps in Blender.
+* [Substance Designer](https://www.substance3d.com/products/substance-designer) - $19.90/month (for **revenue** under \$100k) a node based texture designer
 
-
+  \* Note this is a really powerful piece of software, but from my experience, it is not easy to learn and textures can be found online or created with other programs like Adobe Illustrator and converted into normal maps in Blender.
 
 \* Note don't use CAD software like Fusion 360, Revit, Solidworks etc, because those are for CAD (computer assisted design) and are aimed towards engineers. Also, Blender has Architectural Plugin with many of the functionality of Autodesk Revit. 
 
+<a name="libraries"></a>
 
-
-**Libraries**
+#### Libraries
 
 * [Unreal Store](https://www.unrealengine.com/marketplace/en-US/store) - free and paid assets
 * [Free 3D](https://free3d.com/3d-models/unity) - be careful, some items are not for commercial applications
 
-
-
-Textures
+**Textures**
 
 * [3D Textures](https://3dtextures.me/)
 * [TTextureHaven](https://texturehaven.com/)
 * [CC0 Textures](https://cc0textures.com/)
 
+<a name="unreal_3d"></a>
 
+#### Unreal
 
-**Unreal**
-
-If you have experience with 3D software like Cinema 4D, Blender, or the Autodesk suit, Unreal will be very familiar to you. If you have not worked in a 3D environment, there is some adjusting. Note I will **not** go through the tools (ie rotate, scale, transform) for manipulating 3D bodies because they are the universal shortcuts (like Maya) and effects. 
+If you have experience with 3D software like Cinema 4D, Blender, or the Autodesk suit, Unreal will be very familiar to you. If you have not worked in a 3D environment, there is some adjusting. Note I will **not** go through the tools (ie rotate, scale, transform) for manipulating 3D bodies because they have the universal shortcuts (like Maya) and effects. 
 
 First off note that you do not need to make all 3D asset body. There are many asset stores with free and paid models. Usually I will use tons of free assets from the asset package (or go to [asset store](https://assetstore.unity.com/3d)) and if I need something custom, I model it with Blender. I recommend learning a 3D software before going into Unreal because it can be translated almost directly to Unreal with light sources, objects, texture maps, etc. (my recommendation is [Blender Guru](https://www.youtube.com/user/AndrewPPrice)). 
 
@@ -206,122 +154,96 @@ To import 3D models/bodies, you will have to import it as a fbx file (make sure 
 Now to import into Unreal
 
 1. Click on the **Import** button in the Content Browser
-
 2. Locate the fbx model
-
-3. ![imports](images/imports.jpg)
-
-   This menu will appear and generally, the defaults are good enough
-
+3. This menu will appear and generally, the defaults are good enough
+   
+   ![imports](images/imports.jpg)
 4. Click Import
-
 5. Now you can drag the model into the scene and you will see it snapping to the face of the bottom mesh
 
 
 
-**Landscape**
+<a name="landscape"></a>
 
-Unreal, unlike other game engines has a contained terrain generator. To enable this terrain generator,  hit shift-2. If you are working above Unreal version 4.25.0, you will see a new tab appear, however, I believe the legacy window to be better because you can quickly switch to landscape, foliage, paint, place, and more with the old menu. To enable this, go to Edit -> Editor Preferences, search legacy and the check the first result (under User Interface). After, you may need to restart, but you will see a 5 tabbed window on the left side now
+#### Landscape
+
+Unlike other game engines, Unreal has terrain generator out of the box. To enable this terrain generator, hit `shift-2`. If you are working above Unreal version 4.25.0, you will see a new tab appear, however, I believe the legacy window to be better because you can quickly switch to landscape, foliage, paint, place, and more with the old menu. To enable this, go to Edit -> Editor Preferences, search legacy and the check the first result (under User Interface). After, you may need to restart, but you will see a 5 tabbed window on the left side now
 
 Anyhow, to start creating a landscape:
 
-1. shift-2 to get to landscape mode
-
+1. `shift-2` to get to landscape mode
 2. You will see a grid that displays the area of landscape
+3. (**Optional**) Create a normal map and add it as a material to create a new landscape and you will be done
+4. Under the Material picker is a bunch of options (above) for you to change to your needs. You can change the displacement, rotation, or scale, but it is better to change the section size and number of components. 
 
-3. (Optional) create a normal map and add it as a material to create a new landscape and you will be done
-
-4. ![terrainBuilder](images/terrainBuilder.jpg)
-
-   Under the Material picker is a bunch of options (above) for you to change to your needs. You can change the displacement, rotation, or scale, but it is better to change the section size and number of components. Note you can change it to a none square grid
-
+   ![terrainBuilder](images/terrainBuilder.jpg)
+   \* Note you can change it to a none square grid
 5. After you are satisfied with the landscape dimensions, hit **create**
-
-6. Now you will see that a landscape is made and that you are now in paint mode
-
-7. ![sculpt](images/sculpt.jpg)
-
-   Now you can modify your landscape with sculpting tools. This means you can do additive and subtractive changes to the mesh. In addition, you can change the "brush" size and shape 
-
+6. Now you will see that a landscape is made and that you are now in **paint mode**
+7. Now you can modify your landscape with sculpting tools. This means you can do additive and subtractive changes to the mesh. In addition, you can change the "brush" size and shape 
+   
+   ![sculpt](images/sculpt.jpg)
 8. **TIP** Block out the shape of the terrain first, then detail with noise, erosion, etc.
-
-9. If you need to add or delete sections to the grid, go back to the Manage part of landscape and change the **Selection** to Add or Delete
-
+9. If you need to add or delete sections to the grid, go back to the **Manage** part of landscape and change the **Selection** to **Add** or **Delete**
 10. Play around with the tools and don't be afraid to experiment
-
-11. (Optional) painting in the landscape (see [materials](#mat))
-
+11. (Optional) Painting in the landscape (see [materials](#mat))
     1. Follow the materials tutorial to get the right material 
+    2. Click on the landscape mesh and in the Landscape section, in the Landscape Material and find the terrain material (see above) 
 
-    2. ![landscapeMaterial](images/landscapeMaterial.jpg)
-
-       Click on the landscape mesh and in the Landscape section, in the Landscape Material and find the terrain material (see above)
-
+       ![landscapeMaterial](images/landscapeMaterial.jpg)
     3. Go to the landscape mode, go to paint mode and create layer info (**+** plus icon) and select Weight-Blended Layer (normal)
-
     4. Save it to where you want it and repeat for all the material layers
-
     5. Start painting!
-
-
 
 \* You can create a landscape in another program and import it into Unreal
 
 
 
-**Foliage**
+<a name="foliage"></a>
 
-One thing that will add that extra layer of depth is foliage, ie. trees, grass, bushes etc. Well Unreal makes this easy with the foliage tools.  No longer will you have to place foliage or even rocks by hand, the **Foliage** tool will do all of this with variation by itself
+#### Foliage
 
-1. Find the models you need (if you need one to practice with use the rock in Content -> Models in the project, \* note I made this in Blender and I give permission for you to use it without attribution)
+One thing that will add that extra layer of depth is foliage, ie. trees, grass, bushes. Well Unreal makes this easy with the foliage tools.  No longer will you have to place foliage or even rocks by hand, the **Foliage** tool will do all of this with variation by itself
+
+1. Find the models you need (if you need one to practice with use the rock in Content -> Models in the project)
+   \* Note I made this in Blender and I give permission for you to use it without attribution
 2. Drag the model(s) into the **Drop Foliage Here** area
 3. You can change the Brush Size and Density
 4. For each model, you can change the density and the scale (including some randomness) if you select it
 5. If you need collision on the foliage like with trees or rocks, go down to the Instance Settings -> Collision Presents -> Block All
 
+\* A good tool for creating tree foliage is with [TreeIt](https://www.evolved-software.com/treeit/treeit) (to use in Unreal, use this tutorial (https://youtu.be/SaW88u6u6Ks))
 
 
-\* a good tool for creating tree foliage is with [TreeIt](https://www.evolved-software.com/treeit/treeit) (to use in Unreal, use this tutorial (https://youtu.be/SaW88u6u6Ks))
 
 <a name="mat"></a>
 
-## 5. Materials
+## 4. Materials
 
-Materials in Unreal are node based, therefore, if you have used Blender or Substance Designer, the materials should be nearly identical. If you want to make some basic materials, just follow a Blender material tutorial and you can apply it directly to Unreal
+Materials in Unreal are node based, therefore, if you have used Blender or Substance Designer, the material creation process should be nearly identical. If you want to make some basic materials, just follow a Blender material tutorial and you can apply it directly to Unreal
 
 For this tutorial, I will do something a bit different and create a landscape material to be applied with the landscape paint tool.
 
 1. Right click on the content browser and select material
-
 2. Rename it and double click to edit it
-
 3. You will see the node edit now and the main node that looks exactly like Blender's Principled BSDF node
+4. Right click to get the search menu (not by default, this search is case sensitive, so turn that off) and look for **Layer Blend**. This will make it so Unreal can switch materials in paint mode 
+5. Click on the Layer Blend and in the bottom, left side, you will see options like the one above. Here you can add paint layers. Just click the Adds Element **+** icon like the one below and you can rename it. You can add as many layers as you need. 
 
-4. Right click to get the search menu (not by default, this search is case sensitive, so turn that off) and look for **Layer Blend**. This will make it such that Unreal can switch materials in paint mode 
-
-5. ![nodeSetting](images/nodeSetting.jpg)
-
-   Click on the Layer Blend and in the bottom, left side, you will see options like the one above. Here you can add paint layers. Just click the Adds Element **+** icon like the on above and you can rename it. You can add as many layers as you need. 
-
+   ![nodeSetting](images/nodeSetting.jpg)
 6. We can connect this to the base color as we are doing the base colors first
-
 7. Add a **texture sample** node to one of the layers and in the options, change the texture to whatever you need
-
 8. Connect the texture sample to one of the paint layers
-
 9. If you have normal or roughness maps, repeat steps 4-8 with the normal maps
-
 10. (Optional) since you need a roughness defined, add a constant node and set it to a float from 1 to 0, 1 being non-reflective and 8 being very reflective. You can also do this to with metallic
-
 11. Organize nodes into groups with Ctrl-C
-
 12. For a landscape material, add a **LandscapeCoords** node to all the texture samples so you can scale them periportally with the **Mapping Scale** options
 
 Next I will make a plain white material
 
 1. Right click on the content browser and select material
 2. Rename it and double click to edit it
-3. Add a constant3vector node and change the constant to white
+3. Add a `constant3vector` node and change the constant to white
 4. Connect to base color
 5. Add a 1 constant node to roughness
 6. Exit and drag and drop to mesh (you sometimes need to build the level, otherwise you might see the text preview on the mesh, perhaps a bit distorted)
@@ -330,7 +252,7 @@ Next I will make a plain white material
 
 <a name="move"></a>
 
-## 6. Movement & Camera
+## 5. Movement & Camera
 
 Unlike other engines, Unreal has many convenient features and templates (Unreal calls these templates "Features"). If you require a first person, third person, 2D sides roller, vehicle, AR/Virtual Reality, flying, or puzzle, Unreal has got you covered. These templates are often times a very good jumping off point. I will go through some of the popular templates below.
 
@@ -341,8 +263,6 @@ Unlike other engines, Unreal has many convenient features and templates (Unreal 
 * flying - a spaceship with a static third person camera right behind it
 * puzzle - a grid of blocks that changes color and the score when clicked
 
-
-
 These features are very feature complete and the most common modification is to remove the gun and bullets in the first person feature. 
 
 1. Open the **FirstPersonCharacter** blueprint located in the Content -> FirstPersonBP -> Blueprints
@@ -350,19 +270,17 @@ These features are very feature complete and the most common modification is to 
 3. Remove the two nodes
 4. Now go to the viewport and select by clicking on the two guns and arms (all at once or individually, it doesn't make a difference)
 5. In the Details panel, go to Render and uncheck **Visable**
-6. (Optional) If you want to remove the crosshairs: 
+6. (**Optional**) If you want to remove the crosshairs: 
    1. Open the FirstPersonHUB blueprint
    2. Delete the Event Receive Hand HUB node
 
-
-
-Of course, just because you selected one of the features does not mean you are locked to the feature set. After you enter your project, you can still add any of the feature by going to your Content Browser -> Add New (in green) -> Add Feature or Content Packs
+**IMPORTANT NOTE:** Just because you selected one of the features does not mean you are locked to the feature set. After you enter your project, you can still add any of the feature by going to your Content Browser -> Add New (in green) -> Add Feature or Content Packs
 
 
 
 <a name="light"></a>
 
-## 7. Lighting
+## 6. Lighting
 
 Lighting is a massive undertaking as it sets the mood of the game and can modify how things look. There are two subsets of lighting options we will talk about, global and local. First we will tackle global lighting. 
 
@@ -383,7 +301,7 @@ Local lighting is like any other 3D software with point, spot and directional li
 
 <a name="water"></a>
 
-## 8. Water
+## 7. Water
 
 Water features are complex and expensive graphically, however Unreal has resources to help us. In this tutorial, we will be "making" an ocean with Unreal's ocean template
 
@@ -396,39 +314,30 @@ Water features are complex and expensive graphically, however Unreal has resourc
 7. Drag the Blueprint into the scene and scale it accordingly
 8. There are also other options relating the wave height, noise scale, etc. Play around with these parameters to get something that looks good for your project
 
+\* Note, Unreal has redone the water system in newest Unreal version so check out the official Unreal tutorial: https://www.youtube.com/watch?v=XHugDXx6c5c&ab_channel=UnrealEngine!
+
 
 
 <a name="anim"></a>
 
-## 9. Animation
+## 8. Animation
 
-Animations are important for 3D games if you doing want a static picture. To create an animation;
+Animations are important for 3D games if you don't want a static picture. To create an animation:
 
 1. Drag in your model
-
 2. Change it to movable
+3. Click **Cinematics** -> **Add Level Sequence**
 
-3.  ![anim](images/anim.jpg)
-
-    Click **Cinematics** -> **Add Level Sequence**
-
+   ![anim](images/anim.jpg)
 4. You will see a timeline, similar to many other 3D programs
-
 5. Right click in the layer part (left of the timeline) and select **Actor to Sequence** and find your actor (object, not the cinematics)
+6. Once hovering on the actor you will see the **+ Track**. Click it and select **Transform**
 
-6. ![addAnim](images/addAnim.jpg)
-
-   Once hovering on the actor you will see the **+ Track**. Click it and select **Transform**
-
+   ![addAnim](images/addAnim.jpg)
 7. You can expand the transform and select the tiny **+** in the circle to keyframe it
-
 8. You can change the interpolation to linear or cubic with the Wrench icon
-
-9. After you are finished with the animation, go to the Level Sequence Object in the World Outliner (should look like a movie icon) adn select it
-
+9. After you are finished with the animation, go to the Level Sequence Object in the World Outliner (should look like a movie icon) and select it
 10. You will see options in Playback like Auto Play, Loop, Playback rate, and more
-
-    
 
 \* Note, if you want to create more complex animations, use Blueprints, which I will go in detail later. Here are some resources: 
 
@@ -439,13 +348,13 @@ Animations are important for 3D games if you doing want a static picture. To cre
 
 <a name="particle"></a>
 
-## 10. Particles
+## 9. Particles
 
 Particles add that extra layer of emersion and can change a boring static scene into a dynamic, alive scene. There are many different particles that come packaged with Unreal and this section will explore some of them. I will also go into other FX or VFX in this section like fog and bloom
 
 <a name="fog"></a>
 
-**Fog**
+#### Fog
 
 Fog can be added in duck scenes or to add a cloud of mystery. There are two kinds of fog with Unreal, **Sky Atmosphere** and **Atmospheric Fog**. After testing, I will be using Atmospheric Fog
 
@@ -457,25 +366,24 @@ Fog can be added in duck scenes or to add a cloud of mystery. There are two kind
 
 <a name="bloom"></a>
 
-**Bloom**
+#### Bloom
 
 1. By default, bloom should be in the scene, but if it isn't go to Show -> Post Processing -> Bloom
 
    ![fx](images/fx.jpg)
-
 2. There are also other FX that you can add, so change them to your liking
 
 
 
 <a name="code"></a>
 
-## 11. Coding
+## 10. Coding
 
 Coding in Unreal is different from most languages. The major difference is that this is a visual programming language. It uses nodes with inputs on the left side and outputs on the write side. Of course you can code in pure C++, but we will explore the Blueprints, which is Unreal's intended way of programming in logic. 
 
-**IMPORTANT** - there are a few ways to debug but the simplest is to use the **Print String** node. This will print a blue string in the top left corner of the screen
+**IMPORTANT:** There are a few ways to debug but the simplest is to use the **Print String** node. This will print a blue string in the top left corner of the screen
 
-To start, 
+To start:
 
 1. Click Blueprints -> New Empty Blueprint Classes
 2. You will be presented with a buffet of options. I will be making a bunch of objects that you need to be in, therefore, I will chose the **Actor Component**
@@ -491,141 +399,114 @@ To start,
 
 <a name="events"></a>
 
-## 12. Events
+## 11. Events
 
 Events are important to drive a game and to progress. Events in Unreal should be mainly handled by **Blueprints**. In this tutorial, I will go through the process of creating a bunch of areas I need to get to and move the area after you reach that location. 
 
 1. Drag in a trigger volume (Box, capsule or sphere)
-
 2. With the trigger selected, open the Level Blueprint
-
 3. Right click and select Add Event for ... -> Collision -> Add on Actor Begin Overlap
-
 4. Connect to a Cast to FirstPersonCharacter (or to whatever character you have)
-
 5. (Optional) If you want to debug and see that it is working, connect to a print string node from the cast to first person...
-
 6. I want it such that the object changes displacement 3 times before you win
+7. Set up the nodes like this. I know this might be hard to follow, but this is basically coding but messier :p
 
-7. ![finalEvent](images/finalEvent.jpg)
+   ![finalEvent](images/finalEvent.jpg)
 
-   Set up the nodes like this. I know this might be hard to follow, but this is basically coding but messier
-
-
+<!-- The code above just loops through locations (stored in an array) and every time the collision with player is interected, move the collision sphere -->
 
 Now you might get put off by this, but once you play around and get to know the tools, it will be easier and faster than coding it in C++
 
+
+
 <a name="music"></a>
 
-## 13. Music and Sound
+## 12. Music and Sound
 
-**Music**
+#### Music
 
-Music can be add just by dragging into the scene. To loop the music, 
+Music can be add just by dragging into the scene. To loop the music:
 
 1. right click on the music in the **Content Browser**
 2. Click Create Cue
 3. Rename and open cue
 4. Sandwich a Looping node between wave player and output
 
-**Sounds**
+#### Sounds
 
-Sounds can add a layer of immersion to the game. In this tutorial, I will add some walking sounds
+Sounds can add a layer of immersion to the game. In this tutorial, I will add some walking sounds:
 
 1. Locate some walking sounds online or just use the ones I have
-
 2. Make a sound cue
+3. Drag the sounds in and add a Random (while selecting the sound nodes so they automatically connect). Finally connect that to the output
 
-3. ![walkSound](images/walkSound.jpg)
-
-   Drag the sounds in and add a Random (while selecting the sound nodes so they automatically connect). Finally connect that to the output
-
-4. The easiest way to play the sounds are to do it with the animations, otherwise, you may have to program in logic to play the sounds (a lot of work)
-
+   ![walkSound](images/walkSound.jpg)
+4. The easiest way to play the sounds are to do it with the animations, otherwise, you may have to program in logic to play the sounds (is a lot of work)
 5. Since I have the 1st person controller, go to the firstperson character animation (Content -> FirstPerson -> FirstPerson_AnimBP)
-
 6. Click on **Animation** on top right
-
 7. Now you see the fire animation, but you want to get to the run animation, so go to the **Asset Browser **on the bottom right corner
-
 8. Somewhere in the timeline under Notifies (doesn't matter where because we don't have a walk animation), right click and select Add Notify -> Play Sound
+9. Click on the sound keyframe and in the sound box, select the sound cue
 
-9. ![sound](images/sound.jpg)
-
-   Click on the sound keyframe and in the sound box, select the sound cue
+   ![sound](images/sound.jpg)
 
 
 
 <a name="misc"></a>
 
-## 14. Misc
+## 13. Misc
 
-**Moving assets**
+#### Moving assets
 
-In projects, you might want to move an asset from one project to the next. To do this in Unreal, right click on the asset and click Asset Actions -> **Migrate**...
+In projects, you might want to move an asset from one project to the next. To do this in Unreal:
 
-Press Ok, then find the content folder of the project to move to and confirm
+1. Right click on the asset and click Asset Actions -> **Migrate**...
+2. Press Ok, then find the content folder of the project to move to and confirm
 
-**UI**
+#### UI
 
 Most games will probably require a UI (user interface), so I will go through one here on a pause menu
 
 1. Go to project settings with **Edit** Tab
-
 2. Go to Engine -> Input -> Bindings -> Action Mappings
-
 3. Add another action mapping of pauseGame and add the key of choice (if you chose \<esc>, it will not work when you are running it)
+4. Open your first person controller and add the node like the ones above. Also, make sure in the InputAction, the Execute when Paused checkbox on
 
-4. ![paused](images/paused.jpg)
-
-   Open your first person controller and add the node like the ones above. Also, make sure in the InputAction, the Execute when Paused checkbox on
-
+   ![paused](images/paused.jpg)
 5. Now the pausing should work, so we will do the pause menu
-
 6. Make a new folder in Content called UI or something and **Add New** -> User Interface -> Widget Blueprint
-
 7. Open it and you will see a UI maker
-
 8. Add a size box to the hierarchy 
-
 9. Play around with the Details till you get the box in a place you want
+10. Add a vertical box embedded in the size box and a text box inside of that. In the end, it should look like the hierarchy below
 
-10. ![hier](images/hier.jpg)
+    ![hier](images/hier.jpg)
+12. Edit text, add buttons, whatever you need, you can drag into the Vertical Box and they will stack on each other
+13. Once you are satisfied, go back to the pause game node editor
+14. Copy the node here, remembering to change the Create widget to the Pause UI class and the Paused variable setting to get or, follow Unreal's tutorial (second link)
 
-    Add a vertical box embedded in the size box and a text box inside of that. In the end, it should look like the hierarchy above
+    ![pauseMenu](images/pauseMenu.jpg)
 
-11. Edit text, add buttons, whatever you need, you can drag into the Vertical Box and they will stack on each other
-
-12. Once you are satisfied, go back to the pause game node editor
-
-13. ![pauseMenu](images/pauseMenu.jpg)
-
-    Copy the node here, remembering to change the Create widget to the Pause UI class and the Paused variable setting to get or, follow Unreal's tutorial (second link)
-
-
-
-**Respawn Player**
+#### Respawn Player
 
 Use this: https://docs.unrealengine.com/en-US/Gameplay/HowTo/RespawnPlayer/Blueprints/index.html
-
-
 
 Resources: 
 
 * https://www.youtube.com/watch?v=pKggN6f_8Qo
 * https://docs.unrealengine.com/en-US/Engine/UMG/HowTo/CreatingWidgets/index.html
 
+
+
 <a name="demo"></a>
 
-## 15. Demo
+## 14. Demo
 
 Thank you for viewing this tutorial and I hope you enjoyed this tutorial and I wish you luck in creating your own games. While I went through just the basics of Unreal, but I hope I have sparked your motivation to create projects in Unreal. 
 
-Thank you
-
  \- Andrew
 
-P.S. If you want to provide feedback or have questions, start a issue in the GitHub repo 
+P.S. If you want to provide feedback or have questions, start a discussion in the [GitHub repo](https://github.com/Zeyu-Li/Unreal-Tutorial/discussions)
 
 This is a demo of the project I've been able to complete with ideas from this tutorial:
 
@@ -633,15 +514,39 @@ This is a demo of the project I've been able to complete with ideas from this tu
 
 
 
-\* note to download this game, go to the [release](https://github.com/Zeyu-Li/Unreal-Template/releases) part of the GitHub repo hosting this project
+\* Note to download this game, go to the [release](https://github.com/Zeyu-Li/Unreal-Tutorial/releases) part of the GitHub repo hosting this project
 
 
 
-<a name="help"></a>
+<a name="collab"></a>
 
-## 16. Resources
+## 15. Collaboration
 
-Official Documentation: https://docs.unrealengine.com/en-US/index.html
+Collaborating is made easy in Unreal with Unreal's own version control system
+
+More info can be found in the link [here](https://docs.unrealengine.com/en-US/Engine/Basics/SourceControl/InEditor/index.html)
+
+
+
+<a name="guide"></a>
+
+## 16. Cloning Guide
+
+If you want to clone my finished project, go to the [GitHub repository](https://github.com/Zeyu-Li/Unreal-Tutorial):
+
+1. Download ZIP after clicking Clone or download
+
+   <img src="images/clone.jpg" alt="clone" style="zoom:50%;" />
+2. Unzip and move to desired directory
+3. Launch Unreal Engine (version >= 4.25.0)
+4. In the Select or Create New Project, select **More**
+
+   ![open](images/open.jpg)
+5. Click Browse... and find the place where you unzipped the download clone. Go into the folder and find the Unreal_Template.uproject and select it
+6. Now the project should open
+7. Go into the Content -> Maps in the Content Browser and select **Main** to go to the main level
+
+\* Note if you want the project at different steps click on commits or https://github.com/Zeyu-Li/Unreal-Tutorial/commits/master and between June 4, 2020 `from https://github.com/Zeyu-Li/Unreal-Template-Old` commit to June 14, 2020 `finished game 3` is when various steps where completed. To download the project file at these times, click on the bracket thing (see below) and repeat above from step 1
 
 
 
@@ -651,18 +556,12 @@ Official Documentation: https://docs.unrealengine.com/en-US/index.html
 
 This tutorial and my Unreal template game is under MIT License
 
-
-
-<a name="collab"></a>
-
-## 18. Collaboration
-
-Collaborating is made easy in Unreal with Unreal's own version control system
-
-More info can be found in the link [here](https://docs.unrealengine.com/en-US/Engine/Basics/SourceControl/InEditor/index.html)
-
-
-
------
-
 [🔝 Back to Top](#top)
+
+
+
+<a name="help"></a>
+
+## 18. Resources
+
+Official Documentation: https://docs.unrealengine.com/en-US/index.html
