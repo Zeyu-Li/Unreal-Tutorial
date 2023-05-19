@@ -2,7 +2,7 @@
 
 ## Preface
 
-Unreal Engine 4 (UE4) is a powerful tool that has plenty of functionality built in. If you want a powerful 3D engine to build games, demos, or music videos ([Crab Rave](https://www.youtube.com/watch?v=cE0wfjsybIQ)), you are in the right place. For this tutorial, I will be using version 4.25.0 but following version should be quite similar.
+Unreal Engine 4 (UE4) is a powerful tool that has plenty of functionality built in. If you want a powerful 3D engine to build games, demos, or music videos ([Crab Rave](https://www.youtube.com/watch?v=cE0wfjsybIQ)), you are in the right place. For this tutorial, I will be using version 4.25.0 but the following version should be quite similar.
 
 <a name="top"></a>
 
@@ -93,7 +93,7 @@ On the bottom corner is the **Content Browser**, which allows you to go through 
 
 Starting at the top right side is the World Outliner, this is like a layer panel in Photoshop or the scene manager in Blender. This is the area where all items in the scene can be selected and modified in the tab below. 
 
-This tab is called **details** and does what it says. You can control the details of the item selected. For different items, theses details will be different, but a great majority will have the transform options. These transform options can move where the object is located in 3D space. In most cases however, the better way to manipulate where the object is located is with the 3D viewport.
+This tab is called **details** and does what it says. You can control the details of the item selected. For different items, these details will be different, but a great majority will have the transform options. These transform options can move where the object is located in 3D space. In most cases however, the better way to manipulate where the object is located is with the 3D viewport.
 
 Of course with these panels/windows, you can move any of the windows to suit them to your needs. 
 
@@ -105,7 +105,7 @@ One thing that is different from previous versions, is the different modes (ie p
 
 ## 3. Models & 3D
 
-Unreal is a 3D engine, therefore, it come with many great tools and libraries. By default, Unreal will start you off with a StarterContent folder with many things including models you can drag into the scene. Of course, you can make models in a 3D program of your choice (I will use [Blender](https://www.blender.org/)) and export it as an fbx file format. The following will list some more options of 3D programs to create models:
+Unreal is a 3D engine, therefore, it comes with many great tools and libraries. By default, Unreal will start you off with a StarterContent folder with many things including models you can drag into the scene. Of course, you can make models in a 3D program of your choice (I will use [Blender](https://www.blender.org/)) and export it as an fbx file format. The following will list some more options of 3D programs to create models:
 
 <a name="software"></a>
 
@@ -113,7 +113,7 @@ Unreal is a 3D engine, therefore, it come with many great tools and libraries. B
 
 **Free**
 
-* [Blender](https://www.blender.org/) - a very powerful open source 3D modeling, texturing, animations, and general 3D software. All my models in the exercises where made in Blender. A good place to start is with [Andrew's Donut](https://www.youtube.com/watch?v=TPrnSACiTJ4&list=PLxLGgWrla12dEW5mjO09kR2_TzPqDTXdw). New 2.8 version is very similar to all other 3D software. I **very strongly** advice you use Blender because it is free and is often much better than paid software
+* [Blender](https://www.blender.org/) - a very powerful open source 3D modeling, texturing, animations, and general 3D software. All my models in the exercises were made in Blender. A good place to start is with [Andrew's Donut](https://www.youtube.com/watch?v=TPrnSACiTJ4&list=PLxLGgWrla12dEW5mjO09kR2_TzPqDTXdw). New 2.8 version is very similar to all other 3D software. I **very strongly** advice you use Blender because it is free and is often much better than paid software
 * [TreeIt](https://www.evolved-software.com/treeit/treeit) - a tree generator with presets that range from cacti to palm trees
 
 **Paid**
@@ -126,7 +126,7 @@ Unreal is a 3D engine, therefore, it come with many great tools and libraries. B
 
   \* Note this is a really powerful piece of software, but from my experience, it is not easy to learn and textures can be found online or created with other programs like Adobe Illustrator and converted into normal maps in Blender.
 
-\* Note don't use CAD software like Fusion 360, Revit, Solidworks etc, because those are for CAD (computer assisted design) and are aimed towards engineers. Also, Blender has Architectural Plugin with many of the functionality of Autodesk Revit. 
+\* Note don't use CAD software like Fusion 360, Revit, Solidworks etc, because those are for CAD (computer assisted design) and are aimed towards engineers. Also, Blender has an Architectural Plugin with many of the functionality of Autodesk Revit. 
 
 <a name="libraries"></a>
 
@@ -167,7 +167,7 @@ Now to import into Unreal
 
 #### Landscape
 
-Unlike other game engines, Unreal has terrain generator out of the box. To enable this terrain generator, hit `shift-2`. If you are working above Unreal version 4.25.0, you will see a new tab appear, however, I believe the legacy window to be better because you can quickly switch to landscape, foliage, paint, place, and more with the old menu. To enable this, go to Edit -> Editor Preferences, search legacy and the check the first result (under User Interface). After, you may need to restart, but you will see a 5 tabbed window on the left side now
+Unlike other game engines, Unreal has terrain generator out of the box. To enable this terrain generator, hit `shift-2`. If you are working above Unreal version 4.25.0, you will see a new tab appear, however, I believe the legacy window to be better because you can quickly switch to landscape, foliage, paint, place, and more with the old menu. To enable this, go to Edit -> Editor Preferences, search legacy and then check the first result (under User Interface). After, you may need to restart, but you will see a 5 tabbed window on the left side now
 
 Anyhow, to start creating a landscape:
 
@@ -237,7 +237,7 @@ For this tutorial, I will do something a bit different and create a landscape ma
 9. If you have normal or roughness maps, repeat steps 4-8 with the normal maps
 10. (Optional) since you need a roughness defined, add a constant node and set it to a float from 1 to 0, 1 being non-reflective and 8 being very reflective. You can also do this to with metallic
 11. Organize nodes into groups with Ctrl-C
-12. For a landscape material, add a **LandscapeCoords** node to all the texture samples so you can scale them periportally with the **Mapping Scale** options
+12. For a landscape material, add a **LandscapeCoords** node to all the texture samples so you can scale them proportionally with the **Mapping Scale** options
 
 Next I will make a plain white material
 
@@ -256,7 +256,7 @@ Next I will make a plain white material
 
 Unlike other engines, Unreal has many convenient features and templates (Unreal calls these templates "Features"). If you require a first person, third person, 2D sides roller, vehicle, AR/Virtual Reality, flying, or puzzle, Unreal has got you covered. These templates are often times a very good jumping off point. I will go through some of the popular templates below.
 
-* first person - a character with a working gun and some blocks that are effected by the bullets
+* first person - a character with a working gun and some blocks that are affected by the bullets
 * third person - a blank manikin that has a camera controller and works like the first person controller
 * 2D Side Scroller - a flat side scroller 
 * vehicle - a simple vehicle template
@@ -269,7 +269,7 @@ These features are very feature complete and the most common modification is to 
 2. Locate the Spawn projectile group and on the top left side is the InputAction Fire and the InputTouch nodes
 3. Remove the two nodes
 4. Now go to the viewport and select by clicking on the two guns and arms (all at once or individually, it doesn't make a difference)
-5. In the Details panel, go to Render and uncheck **Visable**
+5. In the Details panel, go to Render and uncheck **Visible**
 6. (**Optional**) If you want to remove the crosshairs: 
    1. Open the FirstPersonHUB blueprint
    2. Delete the Event Receive Hand HUB node
@@ -290,10 +290,10 @@ For my tutorial, I will be making it sunset,
 
 1. Change the light source to a rotation of that of a sunset. (If you are making a night scene, set it to point straight up to the sky and this [tutorial](https://www.youtube.com/watch?v=qJFaKZh1VqU))
 2. Drag in a **Post Process Volume** into the scene and in the options check the **infinite Extent**. 
-3. Now below the exposure details, you will see max and min brightness. Something you **need **to know about Unreal is that Unreal has a feature that adjusts the brightness depending on the surrounding. This is the auto exposure (**Eye Adaptation**) working. This will make it like your eye, which adjusts to the brightness of the surrounding. With this in mind, we will need to increase min brightness (I have mine set to 2) because that way, Unreal will not using Eye Adaptation as aggressively (max can be whatever)
+3. Now below the exposure details, you will see max and min brightness. Something you **need **to know about Unreal is that Unreal has a feature that adjusts the brightness depending on the surrounding. This is the auto exposure (**Eye Adaptation**) working. This will make it like your eye, which adjusts to the brightness of the surroundings. With this in mind, we will need to increase min brightness (I have mine set to 2) because that way, Unreal will not using Eye Adaptation as aggressively (max can be whatever)
 4. In the light source, change in intensity to your liking and you can also change the color
 5. Another thing that adds that something extra is cloud speed and opacity in the Sky Sphere
-6. One other thing that may need to be change depending on the mood is global lighting. The global lighting options can be found in the world settings window
+6. One other thing that may need to be changed depending on the mood is global lighting. The global lighting options can be found in the world settings window
 
 Local lighting is like any other 3D software with point, spot and directional light. There is no area light because I think there is an emissions shader node like in Blender
 
@@ -308,7 +308,7 @@ Water features are complex and expensive graphically, however Unreal has resourc
 1. Go to the Epic Launcher and go to the marketplace
 2. Search of Water Planes by Epic Games (it should be free)
 3. Click **Free** and **Add to Project**
-4. Select project and comfirm
+4. Select project and confirm
 5. You should see the WaterPlane folder in your project
 6. There are several options in the WaterPlane folder, so take your time and look at some of them
 7. Drag the Blueprint into the scene and scale it accordingly
@@ -339,7 +339,7 @@ Animations are important for 3D games if you don't want a static picture. To cre
 9. After you are finished with the animation, go to the Level Sequence Object in the World Outliner (should look like a movie icon) and select it
 10. You will see options in Playback like Auto Play, Loop, Playback rate, and more
 
-\* Note, if you want to create more complex animations, use Blueprints, which I will go in detail later. Here are some resources: 
+\* Note, if you want to create more complex animations, use Blueprints, which I will go into detail later. Here are some resources: 
 
 * https://medium.com/@Luke_Marsden/simple-animation-in-ue4-e8c2529b3eb9
 * https://docs.unrealengine.com/en-US/Engine/Animation/Overview/index.html
@@ -350,7 +350,7 @@ Animations are important for 3D games if you don't want a static picture. To cre
 
 ## 9. Particles
 
-Particles add that extra layer of emersion and can change a boring static scene into a dynamic, alive scene. There are many different particles that come packaged with Unreal and this section will explore some of them. I will also go into other FX or VFX in this section like fog and bloom
+Particles add that extra layer of immersion and can change a boring static scene into a dynamic, alive scene. There are many different particles that come packaged with Unreal and this section will explore some of them. I will also go into other FX or VFX in this section like fog and bloom
 
 <a name="fog"></a>
 
@@ -425,7 +425,7 @@ Now you might get put off by this, but once you play around and get to know the 
 
 #### Music
 
-Music can be add just by dragging into the scene. To loop the music:
+Music can be added just by dragging into the scene. To loop the music:
 
 1. right click on the music in the **Content Browser**
 2. Click Create Cue
@@ -442,7 +442,7 @@ Sounds can add a layer of immersion to the game. In this tutorial, I will add so
 
    ![walkSound](images/walkSound.jpg)
 4. The easiest way to play the sounds are to do it with the animations, otherwise, you may have to program in logic to play the sounds (is a lot of work)
-5. Since I have the 1st person controller, go to the firstperson character animation (Content -> FirstPerson -> FirstPerson_AnimBP)
+5. Since I have the 1st person controller, go to the first person character animation (Content -> FirstPerson -> FirstPerson_AnimBP)
 6. Click on **Animation** on top right
 7. Now you see the fire animation, but you want to get to the run animation, so go to the **Asset Browser **on the bottom right corner
 8. Somewhere in the timeline under Notifies (doesn't matter where because we don't have a walk animation), right click and select Add Notify -> Play Sound
